@@ -1,0 +1,4634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2015-10-09T08:24:15Z</created><keywords></keywords><modified>2015-10-09T08:24:15Z</modified><revision></revision><subject></subject><title></title><unit meter="0.025400" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="Map #1-image" name="Map #1"><init_from>file://C:\Users\Azuolas\Documents\3dsMax\sceneassets\images\Stone_Granite_Midnite.jpg</init_from></image>
+    <image id="Map #2-image" name="Map #2"><init_from>file://C:\Users\Azuolas\Documents\3dsMax\sceneassets\images\Brick_Rough_Dark.jpg</init_from></image>
+    <image id="Map #3-image" name="Map #3"><init_from>file://C:\Users\Azuolas\Documents\3dsMax\sceneassets\images\4154397 copy.jpg</init_from></image>
+    <image id="Map #4-image" name="Map #4"><init_from>file://C:\Users\Azuolas\Documents\3dsMax\sceneassets\images\GEI7.jpg</init_from></image>
+    <image id="Map #5-image" name="Map #5"><init_from>file://C:\Users\Azuolas\Documents\3dsMax\sceneassets\images\Metal_Seamed.jpg</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="_96,96,96" name="_96,96,96">
+      <instance_effect url="#_96,96,96-fx"/>
+    </material>
+    <material id="&lt;Beige&gt;1" name="&lt;Beige&gt;1">
+      <instance_effect url="#&lt;Beige&gt;1-fx"/>
+    </material>
+    <material id="Color_B24" name="Color_B24">
+      <instance_effect url="#Color_B24-fx"/>
+    </material>
+    <material id="&lt;LightGray&gt;" name="&lt;LightGray&gt;">
+      <instance_effect url="#&lt;LightGray&gt;-fx"/>
+    </material>
+    <material id="_0135_DarkGray" name="_0135_DarkGray">
+      <instance_effect url="#_0135_DarkGray-fx"/>
+    </material>
+    <material id="jean blue" name="jean blue">
+      <instance_effect url="#jean blue-fx"/>
+    </material>
+    <material id="&lt;Charcoal&gt;" name="&lt;Charcoal&gt;">
+      <instance_effect url="#&lt;Charcoal&gt;-fx"/>
+    </material>
+    <material id="skp_front_default" name="skp_front_default">
+      <instance_effect url="#skp_front_default-fx"/>
+    </material>
+    <material id="Stone_Granite_Midnite" name="Stone_Granite_Midnite">
+      <instance_effect url="#Stone_Granite_Midnite-fx"/>
+    </material>
+    <material id="Brick_Rough_Dark" name="Brick_Rough_Dark">
+      <instance_effect url="#Brick_Rough_Dark-fx"/>
+    </material>
+    <material id="Color_D01" name="Color_D01">
+      <instance_effect url="#Color_D01-fx"/>
+    </material>
+    <material id="_4154397 copy" name="_4154397 copy">
+      <instance_effect url="#_4154397 copy-fx"/>
+    </material>
+    <material id="Google Earth Snapshot1" name="Google Earth Snapshot1">
+      <instance_effect url="#Google Earth Snapshot1-fx"/>
+    </material>
+    <material id="Metal_Seamed" name="Metal_Seamed">
+      <instance_effect url="#Metal_Seamed-fx"/>
+    </material>
+    <material id="&lt;DarkGray&gt;1" name="&lt;DarkGray&gt;1">
+      <instance_effect url="#&lt;DarkGray&gt;1-fx"/>
+    </material>
+    <material id="&lt;DimGray&gt;" name="&lt;DimGray&gt;">
+      <instance_effect url="#&lt;DimGray&gt;-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_96,96,96-fx" name="_96,96,96">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.376471  0.376471 0.376471 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.376471  0.376471 0.376471 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="&lt;Beige&gt;1-fx" name="&lt;Beige&gt;1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.827451  0.741176 0.564706 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.827451  0.741176 0.564706 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Color_B24-fx" name="Color_B24">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.200000  0.137255 0.117647 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.200000  0.137255 0.117647 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="&lt;LightGray&gt;-fx" name="&lt;LightGray&gt;">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.662745  0.662745 0.662745 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.662745  0.662745 0.662745 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_0135_DarkGray-fx" name="_0135_DarkGray">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.317647  0.317647 0.317647 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.317647  0.317647 0.317647 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="jean blue-fx" name="jean blue">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.141176  0.184314 0.258824 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.141176  0.184314 0.258824 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="&lt;Charcoal&gt;-fx" name="&lt;Charcoal&gt;">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.137255  0.137255 0.137255 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.137255  0.137255 0.137255 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="skp_front_default-fx" name="skp_front_default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Stone_Granite_Midnite-fx" name="Stone_Granite_Midnite">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Brick_Rough_Dark-fx" name="Brick_Rough_Dark">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Color_D01-fx" name="Color_D01">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  0.749020 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  0.749020 0.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_4154397 copy-fx" name="_4154397 copy">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #3-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Google Earth Snapshot1-fx" name="Google Earth Snapshot1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #4-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Metal_Seamed-fx" name="Metal_Seamed">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #5-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="&lt;DarkGray&gt;1-fx" name="&lt;DarkGray&gt;1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.317647  0.317647 0.317647 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.317647  0.317647 0.317647 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="&lt;DimGray&gt;-fx" name="&lt;DimGray&gt;">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.411765  0.411765 0.411765 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.411765  0.411765 0.411765 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Susan_001-lib" name="Susan_001Mesh">
+      <mesh>
+        <source id="Susan_001-POSITION">
+          <float_array id="Susan_001-POSITION-array" count="1902">
+7.041537 -0.000001 7.587177
+6.685181 -0.000001 6.420177
+6.896761 -0.000001 5.970615
+6.156285 -0.000001 6.763958
+5.481942 -0.000001 6.935848
+5.045609 -0.000001 6.935848
+4.037281 -0.000001 7.578541
+4.481785 -0.000001 8.056385
+6.901483 -0.000001 8.029942
+6.346130 -0.000001 8.254730
+5.037120 -0.000001 8.241497
+5.685024 -0.000001 8.320839
+4.516722 -0.000001 6.671394
+4.133274 -0.000001 6.274727
+-8.042229 -0.000001 5.672264
+-8.180585 -0.000001 5.247227
+-8.103866 -0.000001 5.156559
+-8.394771 -0.000001 5.500340
+-8.804662 -0.000001 5.791229
+-7.905533 -0.000001 6.809361
+-9.307110 -0.000001 5.989571
+-9.796339 -0.000001 5.989571
+-10.973143 -0.000001 6.716805
+-10.933477 -0.000001 7.060589
+-8.445210 -0.000001 7.227184
+-10.483906 -0.000001 7.444042
+-9.054302 -0.000001 7.430206
+-9.796339 -0.000001 7.523384
+-10.431011 -0.000001 5.817677
+-10.880582 -0.000001 5.460670
+0.408053 -0.000001 19.476757
+-1.327661 -0.000001 18.645508
+-1.289581 -0.000001 18.019196
+0.054831 -0.000001 19.832493
+1.334051 -0.000001 20.539913
+0.939493 -0.000001 20.848190
+2.054662 -0.000001 21.571068
+1.626116 -0.000001 21.830711
+2.298727 -0.000001 22.040440
+1.825261 -0.000001 22.213696
+2.430156 -0.000001 22.622486
+1.930157 -0.000001 22.678234
+2.430156 -0.000001 23.043732
+1.930157 -0.000001 22.902828
+1.930157 -0.000001 23.152828
+2.332763 -0.000001 23.202812
+1.811423 -0.000001 23.486858
+-2.678551 -0.000001 18.945179
+-2.355595 -0.000001 19.330803
+-3.878894 -0.000001 20.196968
+-3.501240 -0.000001 20.525547
+-4.873412 -0.000001 21.458416
+-4.436937 -0.000001 21.712387
+-5.399291 -0.000001 22.424892
+-4.912183 -0.000001 22.585808
+-5.470824 -0.000001 22.933208
+-4.970971 -0.000001 23.084671
+9.556996 -0.000001 -32.514488
+6.694128 -0.000001 -32.478755
+7.890981 -0.000001 -32.607318
+9.875292 -0.000001 -32.112545
+5.616661 -0.000001 -31.793554
+10.729488 -0.000001 -31.773217
+4.619619 -0.000001 -31.389155
+10.602846 -0.000001 -31.613275
+10.234149 -0.000001 -31.375565
+3.580654 -0.000001 -31.244156
+9.274700 -0.000001 -31.024695
+2.438857 -0.000001 -30.892748
+7.756707 -0.000001 -29.874632
+2.112337 -0.000001 -30.608689
+3.994823 -0.000001 -29.920327
+7.278394 -0.000001 -29.689333
+7.521290 -0.000001 -29.552191
+2.312195 -0.000001 -29.573839
+2.203241 -0.000001 -29.456950
+-1.404152 -0.000001 -32.465442
+-2.021121 -0.000001 -32.336857
+-1.941809 -0.000001 -32.482088
+-0.669664 -0.000001 -32.168706
+-2.168019 -0.000001 -32.257729
+-3.490098 -0.000001 -32.188489
+-3.685963 -0.000001 -32.247835
+-4.077688 -0.000001 -32.366526
+-3.788683 -0.000001 -32.399998
+-4.684865 -0.000001 -31.941214
+-0.718629 -0.000001 -31.951103
+-0.780178 -0.000001 -31.560606
+-4.596728 -0.000001 -31.614805
+-4.156035 -0.000001 -30.487219
+-0.757803 -0.000001 -31.397202
+-0.689268 -0.000001 -30.892735
+-0.297524 -0.000001 -30.348745
+-3.861491 -0.000001 -29.451875
+-0.150626 -0.000001 -29.844296
+-0.131038 -0.000001 -29.438763
+-2.589126 -0.000001 -28.973880
+-0.473801 -0.000001 -29.260722
+-1.531463 -0.000001 -28.874968
+6.607718 -0.000001 20.349651
+7.123794 -0.000001 16.737038
+6.145953 -0.000001 21.164528
+5.590914 -0.000001 21.719566
+5.057946 -0.000001 22.116726
+3.036456 -0.000001 22.883499
+2.982548 -0.000001 22.860310
+2.703299 -0.000001 22.966225
+7.226661 -0.000001 8.195400
+7.038941 -0.000001 10.339455
+3.906568 -0.000001 8.493496
+3.887211 -0.000001 8.777691
+4.004604 -0.000001 11.401741
+7.375158 -0.000001 10.971535
+7.267571 -0.000001 11.590176
+3.971920 -0.000001 12.904881
+7.348267 -0.000001 12.074310
+7.330791 -0.000001 12.662750
+-7.371009 -0.000001 13.130634
+-10.227611 -0.000001 16.043095
+-9.488171 -0.000001 20.016247
+-9.046693 -0.000001 21.008705
+-8.669923 -0.000001 21.560387
+-7.804544 -0.000001 22.176849
+-7.148367 -0.000001 22.424892
+-7.786524 -0.000001 7.100258
+-7.531918 -0.000001 9.218143
+-10.769898 -0.000001 8.401417
+-10.852659 -0.000001 8.953140
+-10.578592 -0.000001 11.058273
+-7.314010 -0.000001 11.733719
+-10.689053 -0.000001 11.678570
+2.325365 -0.000001 0.561367
+-4.738633 -0.000001 0.970020
+-0.710405 -0.000001 0.502972
+4.087679 -0.000001 0.734787
+4.221904 -0.000001 2.270905
+-7.190615 -0.000001 1.437057
+-8.699962 -0.000001 1.905453
+-8.613129 -0.000001 3.242672
+-7.353393 -0.000001 8.619400
+-7.149435 -0.000001 10.457291
+3.812418 -0.000001 9.875851
+3.812418 -0.000001 11.596172
+-7.175130 -0.000001 11.712017
+1.930157 -0.000001 22.678234
+-0.386341 -0.000001 22.283020
+1.825261 -0.000001 22.213696
+-0.026155 -0.000001 22.349514
+0.581003 -0.000001 22.671082
+1.150304 -0.000001 23.077198
+1.930157 -0.000001 22.902828
+1.930157 -0.000001 23.152828
+1.526330 -0.000001 23.631763
+1.811423 -0.000001 23.486858
+1.553769 -0.000001 23.627235
+-0.524803 -0.000001 22.837971
+-1.050316 -0.000001 22.796082
+-0.447916 -0.000001 22.722694
+-0.820052 -0.000001 22.815105
+-0.623844 -0.000001 22.869461
+0.054831 -0.000001 19.832493
+-2.355595 -0.000001 19.330803
+-1.327661 -0.000001 18.645508
+-3.501240 -0.000001 20.525547
+0.939493 -0.000001 20.848190
+-4.436937 -0.000001 21.712387
+1.626116 -0.000001 21.830711
+-4.912183 -0.000001 22.585808
+-0.394486 -0.000001 22.473579
+-4.970971 -0.000001 23.084671
+-1.355354 -0.000001 22.825977
+-1.532790 -0.000001 22.869461
+-1.825694 -0.000001 23.023727
+-1.978798 -0.000001 23.261791
+-3.512099 -0.000001 23.526726
+-2.009899 -0.000001 23.410095
+-2.014421 -0.000001 23.576771
+-3.770773 -0.000001 24.163708
+-1.954882 -0.000001 23.961769
+-1.807092 -0.000001 24.412098
+-4.016748 -0.000001 24.356457
+-4.635455 -0.000001 24.267986
+-5.701302 -0.000001 24.463223
+-5.255742 -0.000001 24.232189
+-1.687958 -0.000001 24.650623
+-5.899327 -0.000001 24.875778
+-1.102014 -0.000001 25.823769
+-5.857088 -0.000001 25.263126
+-5.857602 -0.000001 25.288769
+-5.892754 -0.000001 25.532856
+-6.011886 -0.000001 25.830391
+-1.007545 -0.000001 26.144859
+-5.935113 -0.000001 26.036461
+-6.034251 -0.000001 26.177982
+-0.984606 -0.000001 26.655155
+-6.098431 -0.000001 26.364300
+-5.972037 -0.000001 26.921700
+-1.063349 -0.000001 27.036480
+-6.123349 -0.000001 26.929813
+-6.418718 -0.000001 27.037266
+-1.321855 -0.000001 27.704361
+-6.573401 -0.000001 27.265415
+-6.501002 -0.000001 27.543659
+-5.992274 -0.000001 28.532043
+-1.760157 -0.000001 28.437569
+-2.264798 -0.000001 29.037121
+-6.014521 -0.000001 28.929974
+-6.142157 -0.000001 29.261524
+-2.808232 -0.000001 29.526001
+-6.145354 -0.000001 29.580841
+-3.362912 -0.000001 29.927185
+-6.071787 -0.000001 30.592197
+-3.901291 -0.000001 30.263657
+-4.395820 -0.000001 30.558392
+-4.818952 -0.000001 30.834362
+-6.024090 -0.000001 30.842495
+-5.297000 -0.000001 31.226086
+-5.900024 -0.000001 31.015003
+-5.703705 -0.000001 31.189945
+-5.580191 -0.000001 31.247974
+-5.443653 -0.000001 31.265285
+5.122917 -0.000001 -7.120560
+4.832022 -0.000001 -7.318893
+4.990689 -0.000001 -7.318893
+4.646917 -0.000001 -7.239574
+4.618535 -0.000001 -6.952093
+5.395636 -0.000001 -6.341352
+5.202941 -0.000001 -5.641861
+5.770822 -0.000001 -5.269421
+5.259286 -0.000001 -4.828733
+5.770822 -0.000001 -4.846312
+-8.649095 -0.000001 -0.459213
+-10.706390 -0.000001 -0.770149
+-10.654753 -0.000001 -1.183392
+-10.844279 -0.000001 -0.149605
+-8.745344 -0.000001 -0.133022
+-10.689149 -0.000001 0.815651
+-8.699962 -0.000001 1.905453
+-10.740854 -0.000001 2.763412
+-8.613129 -0.000001 3.242672
+-10.880582 -0.000001 5.460670
+-8.180585 -0.000001 5.247227
+-8.394771 -0.000001 5.500340
+-10.431011 -0.000001 5.817677
+-8.804662 -0.000001 5.791229
+-9.307110 -0.000001 5.989571
+-9.796339 -0.000001 5.989571
+-7.541491 -0.000001 -6.226683
+-7.922466 -0.000001 -6.124535
+-7.552228 -0.000001 -6.230310
+-7.520199 -0.000001 -6.216963
+-7.491506 -0.000001 -6.202887
+-7.458568 -0.000001 -6.186201
+-7.424542 -0.000001 -6.168644
+-7.392584 -0.000001 -6.151958
+-7.365850 -0.000001 -6.137884
+-7.347494 -0.000001 -6.128162
+-7.340675 -0.000001 -6.124535
+-7.287780 -0.000001 -5.926201
+-8.045106 -0.000001 -6.051315
+-7.403312 -0.000001 -5.224842
+-7.786769 -0.000001 -5.370300
+-7.548750 -0.000001 -5.396738
+-8.011541 -0.000001 -5.185181
+-7.522321 -0.000001 -4.801727
+-10.124068 -0.000001 -5.103413
+-10.312923 -0.000001 -5.009626
+-10.683188 -0.000001 -3.676674
+-7.522321 -0.000001 -4.061266
+-7.694207 -0.000001 -2.897694
+-10.643748 -0.000001 -1.490969
+-7.932217 -0.000001 -1.760569
+-8.581102 -0.000001 -0.747662
+-9.535591 -0.000001 -5.780741
+-8.249889 -0.000001 -6.119276
+-7.300578 -0.000001 -5.904095
+-7.433227 -0.000001 -5.674963
+-9.627149 -0.000001 -5.523964
+-7.750561 -0.000001 -5.555973
+-10.038057 -0.000001 -5.397297
+4.383150 -0.000001 -7.479786
+3.946807 -0.000001 -7.519447
+4.198044 -0.000001 -7.598776
+3.867474 -0.000001 -7.202101
+3.973245 -0.000001 -6.712889
+4.402988 -0.000001 -5.549309
+4.402988 -0.000001 -4.868351
+5.744383 -0.000001 -6.419775
+5.572479 -0.000001 -6.512337
+5.969165 -0.000001 -5.256203
+5.986778 -0.000001 -4.636698
+5.770822 -0.000001 -4.619093
+5.803089 -0.000001 -2.981209
+5.273812 -0.000001 -4.619093
+3.695587 -0.000001 -4.372513
+3.708798 -0.000001 -3.671722
+3.550140 -0.000001 -3.182493
+2.783226 -0.000001 -4.980732
+2.214673 -0.000001 -5.099747
+2.479129 -0.000001 -5.139408
+2.161778 -0.000001 -4.888189
+3.074139 -0.000001 -4.385723
+2.333682 -0.000001 -3.856831
+3.206349 -0.000001 -3.817160
+2.649145 -0.000001 -2.874552
+3.391473 -0.000001 -3.301493
+5.803089 -0.000001 -2.863869
+3.226705 -0.000001 -1.272289
+5.803089 -0.000001 -0.995419
+3.723987 -0.000001 -0.716621
+6.014651 -0.000001 -0.519398
+4.067378 -0.000001 0.502430
+6.067383 -0.000001 -0.039360
+6.067383 -0.000001 0.594326
+4.087679 -0.000001 0.734787
+6.896761 -0.000001 5.970615
+4.221904 -0.000001 2.270905
+4.133274 -0.000001 6.274727
+6.685181 -0.000001 6.420177
+4.516722 -0.000001 6.671394
+6.156285 -0.000001 6.763958
+5.045609 -0.000001 6.935848
+5.481942 -0.000001 6.935848
+3.166692 -0.000001 -6.726105
+2.836121 -0.000001 -6.646770
+2.994806 -0.000001 -6.752552
+4.131930 -0.000001 -5.628637
+2.849340 -0.000001 -6.329428
+3.484026 -0.000001 -5.192299
+3.036456 -0.000001 22.883499
+2.703299 -0.000001 22.966225
+2.982548 -0.000001 22.860310
+3.241096 -0.000001 22.971535
+2.332763 -0.000001 23.202812
+3.449273 -0.000001 23.706867
+1.811423 -0.000001 23.486858
+1.553769 -0.000001 23.627235
+1.526330 -0.000001 23.631763
+-0.026155 -0.000001 22.349514
+-0.394486 -0.000001 22.473579
+-0.386341 -0.000001 22.283020
+0.581003 -0.000001 22.671082
+-0.447916 -0.000001 22.722694
+1.150304 -0.000001 23.077198
+-0.524803 -0.000001 22.837971
+-0.623844 -0.000001 22.869461
+-1.532790 -0.000001 22.869461
+-1.825694 -0.000001 23.023727
+-1.978798 -0.000001 23.261791
+-2.009899 -0.000001 23.410095
+-2.014421 -0.000001 23.576771
+-1.954882 -0.000001 23.961769
+3.612116 -0.000001 25.145557
+-1.807092 -0.000001 24.412098
+-1.687958 -0.000001 24.650623
+-1.102014 -0.000001 25.823769
+3.110321 -0.000001 27.186630
+-1.007545 -0.000001 26.144859
+-0.984606 -0.000001 26.655155
+-1.063349 -0.000001 27.036480
+-1.321855 -0.000001 27.704361
+1.926051 -0.000001 29.741386
+-1.760157 -0.000001 28.437569
+-2.264798 -0.000001 29.037121
+-2.808232 -0.000001 29.526001
+-3.362912 -0.000001 29.927185
+1.105892 -0.000001 31.302876
+-3.901291 -0.000001 30.263657
+-4.395820 -0.000001 30.558392
+-4.818952 -0.000001 30.834362
+-5.297000 -0.000001 31.226086
+-5.443653 -0.000001 31.265285
+-6.024090 -0.000001 30.842495
+-6.278584 -0.000001 31.082500
+-6.071787 -0.000001 30.592197
+-5.900024 -0.000001 31.015003
+-5.703705 -0.000001 31.189945
+-6.379068 -0.000001 31.547268
+-5.580191 -0.000001 31.247974
+0.581003 -0.000001 31.991520
+-6.090167 -0.000001 32.238140
+-0.184934 -0.000001 32.568226
+-5.428789 -0.000001 32.704472
+-1.082737 -0.000001 33.011227
+-4.418281 -0.000001 33.054264
+-1.827228 -0.000001 33.209736
+-3.019106 -0.000001 33.300419
+-0.820052 -0.000001 22.815105
+-1.355354 -0.000001 22.825977
+-1.050316 -0.000001 22.796082
+-10.643748 -0.000001 -1.490969
+-10.861511 -0.000001 -1.270004
+-10.792578 -0.000001 -1.545803
+-8.581102 -0.000001 -0.747662
+-10.654753 -0.000001 -1.183392
+-8.649095 -0.000001 -0.459213
+-8.448351 -0.000001 -0.701195
+-8.534549 -0.000001 -0.425407
+5.770822 -0.000001 -4.619093
+5.259286 -0.000001 -4.828733
+5.770822 -0.000001 -4.846312
+5.273812 -0.000001 -4.619093
+9.250233 -0.000001 -32.891528
+6.849181 -0.000001 -32.819100
+8.447768 -0.000001 -32.907901
+9.556996 -0.000001 -32.514488
+7.890981 -0.000001 -32.607318
+6.221678 -0.000001 -32.607984
+6.694128 -0.000001 -32.478755
+5.202490 -0.000001 -31.893210
+5.616661 -0.000001 -31.793554
+3.627786 -0.000001 -31.648832
+4.318376 -0.000001 -31.953323
+4.619619 -0.000001 -31.389155
+2.586890 -0.000001 -31.430083
+1.959703 -0.000001 -31.156879
+3.580654 -0.000001 -31.244156
+2.438857 -0.000001 -30.892748
+1.949592 -0.000001 -30.770773
+2.106756 -0.000001 -30.614247
+2.112337 -0.000001 -30.608689
+-0.669664 -0.000001 -32.623695
+-1.815466 -0.000001 -32.692934
+-1.511877 -0.000001 -32.900648
+-1.941809 -0.000001 -32.482088
+-1.404152 -0.000001 -32.465442
+-0.669664 -0.000001 -32.168706
+-3.979758 -0.000001 -32.683045
+-4.812179 -0.000001 -32.406092
+-4.332312 -0.000001 -32.712718
+-3.788683 -0.000001 -32.399998
+-4.077688 -0.000001 -32.366526
+-4.812177 -0.000001 -32.139033
+-4.684865 -0.000001 -31.941214
+-0.165315 -0.000001 -30.729555
+-0.689268 -0.000001 -30.892735
+-0.757803 -0.000001 -31.397202
+-0.297524 -0.000001 -30.348745
+0.387999 -0.000001 -29.349744
+-0.131038 -0.000001 -29.438763
+0.211722 -0.000001 -29.616799
+-0.473801 -0.000001 -29.260722
+0.339034 -0.000001 -28.884861
+-1.531463 -0.000001 -28.874968
+0.378206 -0.000001 -28.133136
+7.278394 -0.000001 -29.689333
+2.312195 -0.000001 -29.573839
+3.994823 -0.000001 -29.920327
+7.521290 -0.000001 -29.552191
+2.203241 -0.000001 -29.456950
+7.734353 -0.000001 -29.426211
+2.001809 -0.000001 -29.227342
+7.735808 -0.000001 -29.425341
+7.589446 -0.000001 -27.345095
+2.083488 -0.000001 -28.847855
+2.083488 -0.000001 -27.610387
+1.760948 -0.000001 -26.123909
+6.296446 -0.000001 -25.588308
+2.132498 -0.000001 -23.963992
+6.773626 -0.000001 -24.189099
+7.019911 -0.000001 -22.991997
+2.459221 -0.000001 -20.763078
+7.127128 -0.000001 -21.147519
+7.342256 -0.000001 -16.217979
+2.634796 -0.000001 -18.281908
+2.634796 -0.000001 -17.067213
+2.792522 -0.000001 -16.330435
+2.063037 -0.000001 -14.100185
+7.270542 -0.000001 -15.840210
+7.331645 -0.000001 -12.642021
+1.928210 -0.000001 -12.530943
+6.785006 -0.000001 -8.573864
+0.641320 -0.000001 -8.357073
+4.198044 -0.000001 -7.598776
+4.990689 -0.000001 -7.318893
+5.744383 -0.000001 -6.419775
+5.969165 -0.000001 -5.256203
+5.986778 -0.000001 -4.636698
+5.803089 -0.000001 -2.863869
+4.383150 -0.000001 -7.479786
+5.122917 -0.000001 -7.120560
+5.572479 -0.000001 -6.512337
+5.803089 -0.000001 -2.981209
+3.484026 -0.000001 -5.192299
+2.783226 -0.000001 -4.980732
+2.479129 -0.000001 -5.139408
+3.695587 -0.000001 -4.372513
+3.074139 -0.000001 -4.385723
+3.206349 -0.000001 -3.817160
+3.708798 -0.000001 -3.671722
+3.391473 -0.000001 -3.301493
+3.550140 -0.000001 -3.182493
+4.067378 -0.000001 0.502430
+2.325365 -0.000001 0.561367
+-0.710405 -0.000001 0.502972
+4.087679 -0.000001 0.734787
+3.946807 -0.000001 -7.519447
+-1.054891 -0.000001 -4.546984
+2.994806 -0.000001 -6.752552
+3.867474 -0.000001 -7.202101
+2.836121 -0.000001 -6.646770
+2.849340 -0.000001 -6.329428
+2.214673 -0.000001 -5.099747
+2.161778 -0.000001 -4.888189
+2.333682 -0.000001 -3.856831
+-1.759525 -0.000001 -3.720518
+2.649145 -0.000001 -2.874552
+-2.055017 -0.000001 -3.467983
+-7.694207 -0.000001 -2.897694
+-7.932217 -0.000001 -1.760569
+3.226705 -0.000001 -1.272289
+-8.581102 -0.000001 -0.747662
+3.723987 -0.000001 -0.716621
+-8.448351 -0.000001 -0.701195
+-8.534549 -0.000001 -0.425407
+-8.745344 -0.000001 -0.133022
+-4.738633 -0.000001 0.970020
+-7.190615 -0.000001 1.437057
+-8.699962 -0.000001 1.905453
+-8.649095 -0.000001 -0.459213
+-2.579121 -0.000001 -7.143635
+-7.541491 -0.000001 -6.226683
+-7.552228 -0.000001 -6.230310
+-7.520199 -0.000001 -6.216963
+-7.491506 -0.000001 -6.202887
+-7.458568 -0.000001 -6.186201
+-7.424542 -0.000001 -6.168644
+-7.392584 -0.000001 -6.151958
+-7.365850 -0.000001 -6.137884
+-7.347494 -0.000001 -6.128162
+-7.340675 -0.000001 -6.124535
+-2.395969 -0.000001 -3.490946
+-7.287780 -0.000001 -5.926201
+-7.300578 -0.000001 -5.904095
+-7.433227 -0.000001 -5.674963
+-7.750561 -0.000001 -5.555973
+-7.548750 -0.000001 -5.396738
+-7.403312 -0.000001 -5.224842
+-7.522321 -0.000001 -4.801727
+-7.522321 -0.000001 -4.061266
+-7.786769 -0.000001 -5.370300
+-8.011541 -0.000001 -5.185181
+5.395636 -0.000001 -6.341352
+4.646917 -0.000001 -7.239574
+4.618535 -0.000001 -6.952093
+4.832022 -0.000001 -7.318893
+3.973245 -0.000001 -6.712889
+3.166692 -0.000001 -6.726105
+4.131930 -0.000001 -5.628637
+4.402988 -0.000001 -5.549309
+4.402988 -0.000001 -4.868351
+-3.861491 -0.000001 -29.451875
+-4.786794 -0.000001 -27.690032
+-4.369659 -0.000001 -29.680345
+-2.589126 -0.000001 -28.973880
+0.652415 -0.000001 -27.440761
+-4.513499 -0.000001 -26.513272
+0.676720 -0.000001 -26.982159
+-0.789735 -0.000001 -19.184202
+-4.671723 -0.000001 -25.568968
+-6.075961 -0.000001 -18.338111
+-1.476590 -0.000001 -17.542183
+-6.152898 -0.000001 -17.483358
+-1.646048 -0.000001 -16.001802
+-6.429864 -0.000001 -16.628605
+-6.460639 -0.000001 -16.038048
+-6.883466 -0.000001 -14.685717
+-1.969561 -0.000001 -15.161592
+-1.892534 -0.000001 -13.667889
+-7.072880 -0.000001 -12.275217
+-2.074966 -0.000001 -11.867813
+-7.444651 -0.000001 -10.859394
+-2.418699 -0.000001 -10.056774
+-7.689988 -0.000001 -8.764444
+-2.418699 -0.000001 -9.322138
+-2.577811 -0.000001 -7.255964
+-8.249889 -0.000001 -6.119276
+-7.922466 -0.000001 -6.124535
+-8.045106 -0.000001 -6.051315
+9.186887 -0.000001 -33.282943
+7.307894 -0.000001 -33.300419
+8.886872 -0.000001 -33.300419
+6.290344 -0.000001 -33.032271
+10.024151 -0.000001 -33.082917
+9.250233 -0.000001 -32.891528
+10.914717 -0.000001 -32.673710
+8.447768 -0.000001 -32.907901
+9.556996 -0.000001 -32.514488
+10.973145 -0.000001 -32.286294
+9.875292 -0.000001 -32.112545
+10.856135 -0.000001 -31.933159
+10.729488 -0.000001 -31.773217
+5.864204 -0.000001 -32.845538
+6.849181 -0.000001 -32.819100
+6.221678 -0.000001 -32.607984
+5.459406 -0.000001 -32.351520
+5.202490 -0.000001 -31.893210
+5.149966 -0.000001 -32.132053
+4.318376 -0.000001 -31.953323
+2.003735 -0.000001 -31.984672
+1.840929 -0.000001 -31.554114
+3.627786 -0.000001 -31.648832
+2.586890 -0.000001 -31.430083
+1.959703 -0.000001 -31.156879
+4.657936 -0.000001 -32.421981
+2.753791 -0.000001 -32.283848
+3.962858 -0.000001 -32.440182
+4.917081 -0.000001 -32.217307
+-0.669664 -0.000001 -32.861086
+-1.511877 -0.000001 -32.900648
+-0.767596 -0.000001 -33.049016
+-0.669664 -0.000001 -32.623695
+-1.159322 -0.000001 -33.207273
+-3.947285 -0.000001 -33.300419
+-1.884785 -0.000001 -33.300419
+-4.670653 -0.000001 -32.900366
+-1.815466 -0.000001 -32.692934
+-4.332312 -0.000001 -32.712718
+-3.979758 -0.000001 -32.683045
+-1.941809 -0.000001 -32.482088
+-3.788683 -0.000001 -32.399998
+-2.021121 -0.000001 -32.336857
+-3.685963 -0.000001 -32.247835
+-2.168019 -0.000001 -32.257729
+-3.490098 -0.000001 -32.188489
+-4.812177 -0.000001 -32.692934
+-4.812179 -0.000001 -32.406092
+-0.180006 -0.000001 -31.614805
+-0.780178 -0.000001 -31.560606
+-0.718629 -0.000001 -31.951103
+-0.052694 -0.000001 -31.426875
+-0.757803 -0.000001 -31.397202
+-0.033108 -0.000001 -31.110360
+-0.165315 -0.000001 -30.729555
+</float_array>
+          <technique_common>
+            <accessor source="#Susan_001-POSITION-array" count="634" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Susan_001-Normal0">
+          <float_array id="Susan_001-Normal0-array" count="5661">
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Susan_001-Normal0-array" count="1887" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Susan_001-UV0">
+          <float_array id="Susan_001-UV0-array" count="14">
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Susan_001-UV0-array" count="7" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Susan_001-UV1">
+          <float_array id="Susan_001-UV1-array" count="14">
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Susan_001-UV1-array" count="7" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Susan_001-VERTEX">
+          <input semantic="POSITION" source="#Susan_001-POSITION"/>
+        </vertices>
+        <triangles count="165" material="_96,96,96"><input semantic="VERTEX" offset="0" source="#Susan_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Susan_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Susan_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Susan_001-UV1"/><p> 0 0 0 0 1 1 0 0 2 2 0 0 1 3 0 0 0 4 0 0 3 5 0 0 3 6 0 0 0 7 0 0 4 8 0 0 4 9 0 0 0 10 0 0 5 11 0 0 5 12 0 0 0 13 0 0 6 14 0 0 6 15 0 0 0 16 0 0 7 17 0 0 7 18 0 0 0 19 0 0 8 20 0 0 7 21 0 0 8 22 0 0 9 23 0 0 7 24 0 0 9 25 0 0 10 26 0 0 10 27 0 0 9 28 0 0 11 29 0 0 12 30 0 0 6 31 0 0 13 32 0 0 6 33 0 0 12 34 0 0 5 35 0 0 14 36 0 0 15 37 0 0 16 38 0 0 15 39 0 0 14 40 0 0 17 41 0 0 17 42 0 0 14 43 0 0 18 44 0 0 18 45 0 0 14 46 0 0 19 47 0 0 18 48 0 0 19 49 0 0 20 50 0 0 20 51 0 0 19 52 0 0 21 53 0 0 21 54 0 0 19 55 0 0 22 56 0 0 22 57 0 0 19 58 0 0 23 59 0 0 23 60 0 0 19 61 0 0 24 62 0 0 23 63 0 0 24 64 0 0 25 65 0 0 25 66 0 0 24 67 0 0 26 68 0 0 25 69 0 0 26 70 0 0 27 71 0 0 28 72 0 0 22 73 0 0 29 74 0 0 22 75 0 0 28 76 0 0 21 77 0 0 30 78 0 0 31 79 0 0 32 80 0 0 31 81 0 0 30 82 0 0 33 83 0 0 33 84 0 0 30 85 0 0 34 86 0 0 33 87 0 0 34 88 0 0 35 89 0 0 35 90 0 0 34 91 0 0 36 92 0 0 35 93 0 0 36 94 0 0 37 95 0 0 37 96 0 0 36 97 0 0 38 98 0 0 37 99 0 0 38 100 0 0 39 101 0 0 39 102 0 0 38 103 0 0 40 104 0 0 39 105 0 0 40 106 0 0 41 107 0 0 41 108 0 0 40 109 0 0 42 110 0 0 41 111 0 0 42 112 0 0 43 113 0 0 43 114 0 0 42 115 0 0 44 116 0 0 44 117 0 0 42 118 0 0 45 119 0 0 44 120 0 0 45 121 0 0 46 122 0 0 31 123 0 0 47 124 0 0 32 125 0 0 47 126 0 0 31 127 0 0 48 128 0 0 47 129 0 0 48 130 0 0 49 131 0 0 49 132 0 0 48 133 0 0 50 134 0 0 49 135 0 0 50 136 0 0 51 137 0 0 51 138 0 0 50 139 0 0 52 140 0 0 51 141 0 0 52 142 0 0 53 143 0 0 53 144 0 0 52 145 0 0 54 146 0 0 53 147 0 0 54 148 0 0 55 149 0 0 55 150 0 0 54 151 0 0 56 152 0 0 57 153 0 0 58 154 0 0 59 155 0 0 58 156 0 0 57 157 0 0 60 158 0 0 58 159 0 0 60 160 0 0 61 161 0 0 61 162 0 0 60 163 0 0 62 164 0 0 61 165 0 0 62 166 0 0 63 167 0 0 63 168 0 0 62 169 0 0 64 170 0 0 63 171 0 0 64 172 0 0 65 173 0 0 63 174 0 0 65 175 0 0 66 176 0 0 66 177 0 0 65 178 0 0 67 179 0 0 66 180 0 0 67 181 0 0 68 182 0 0 68 183 0 0 67 184 0 0 69 185 0 0 68 186 0 0 69 187 0 0 70 188 0 0 70 189 0 0 69 190 0 0 71 191 0 0 71 192 0 0 69 193 0 0 72 194 0 0 72 195 0 0 69 196 0 0 73 197 0 0 70 198 0 0 74 199 0 0 75 200 0 0 74 201 0 0 70 202 0 0 71 203 0 0 76 204 0 0 77 205 0 0 78 206 0 0 77 207 0 0 76 208 0 0 79 209 0 0 77 210 0 0 79 211 0 0 80 212 0 0 80 213 0 0 79 214 0 0 81 215 0 0 82 216 0 0 83 217 0 0 84 218 0 0 83 219 0 0 82 220 0 0 85 221 0 0 85 222 0 0 82 223 0 0 81 224 0 0 85 225 0 0 81 226 0 0 79 227 0 0 85 228 0 0 79 229 0 0 86 230 0 0 85 231 0 0 86 232 0 0 87 233 0 0 85 234 0 0 87 235 0 0 88 236 0 0 88 237 0 0 87 238 0 0 89 239 0 0 89 240 0 0 87 241 0 0 90 242 0 0 89 243 0 0 90 244 0 0 91 245 0 0 89 246 0 0 91 247 0 0 92 248 0 0 89 249 0 0 92 250 0 0 93 251 0 0 93 252 0 0 92 253 0 0 94 254 0 0 93 255 0 0 94 256 0 0 95 257 0 0 93 258 0 0 95 259 0 0 96 260 0 0 96 261 0 0 95 262 0 0 97 263 0 0 96 264 0 0 97 265 0 0 98 266 0 0 99 267 0 0 32 268 0 0 100 269 0 0 32 270 0 0 99 271 0 0 30 272 0 0 30 273 0 0 99 274 0 0 34 275 0 0 34 276 0 0 99 277 0 0 101 278 0 0 34 279 0 0 101 280 0 0 36 281 0 0 36 282 0 0 101 283 0 0 102 284 0 0 36 285 0 0 102 286 0 0 38 287 0 0 38 288 0 0 102 289 0 0 103 290 0 0 38 291 0 0 103 292 0 0 40 293 0 0 40 294 0 0 103 295 0 0 104 296 0 0 40 297 0 0 104 298 0 0 105 299 0 0 105 300 0 0 42 301 0 0 40 302 0 0 42 303 0 0 105 304 0 0 106 305 0 0 42 306 0 0 106 307 0 0 45 308 0 0 107 309 0 0 8 310 0 0 0 311 0 0 8 312 0 0 107 313 0 0 9 314 0 0 9 315 0 0 107 316 0 0 108 317 0 0 9 318 0 0 108 319 0 0 11 320 0 0 11 321 0 0 108 322 0 0 109 323 0 0 109 324 0 0 108 325 0 0 110 326 0 0 110 327 0 0 108 328 0 0 111 329 0 0 111 330 0 0 108 331 0 0 112 332 0 0 111 333 0 0 112 334 0 0 113 335 0 0 111 336 0 0 113 337 0 0 114 338 0 0 114 339 0 0 113 340 0 0 115 341 0 0 114 342 0 0 115 343 0 0 116 344 0 0 114 345 0 0 116 346 0 0 100 347 0 0 114 348 0 0 100 349 0 0 117 350 0 0 117 351 0 0 100 352 0 0 118 353 0 0 118 354 0 0 100 355 0 0 32 356 0 0 118 357 0 0 32 358 0 0 119 359 0 0 119 360 0 0 32 361 0 0 47 362 0 0 119 363 0 0 47 364 0 0 49 365 0 0 119 366 0 0 49 367 0 0 120 368 0 0 120 369 0 0 49 370 0 0 51 371 0 0 120 372 0 0 51 373 0 0 121 374 0 0 121 375 0 0 51 376 0 0 53 377 0 0 121 378 0 0 53 379 0 0 122 380 0 0 122 381 0 0 53 382 0 0 123 383 0 0 123 384 0 0 53 385 0 0 55 386 0 0 124 387 0 0 24 388 0 0 19 389 0 0 24 390 0 0 124 391 0 0 125 392 0 0 24 393 0 0 125 394 0 0 26 395 0 0 26 396 0 0 125 397 0 0 27 398 0 0 27 399 0 0 125 400 0 0 126 401 0 0 126 402 0 0 125 403 0 0 127 404 0 0 127 405 0 0 125 406 0 0 128 407 0 0 128 408 0 0 125 409 0 0 129 410 0 0 128 411 0 0 129 412 0 0 130 413 0 0 130 414 0 0 129 415 0 0 118 416 0 0 118 417 0 0 129 418 0 0 117 419 0 0 131 420 0 0 132 421 0 0 133 422 0 0 132 423 0 0 131 424 0 0 134 425 0 0 132 426 0 0 134 427 0 0 135 428 0 0 132 429 0 0 135 430 0 0 136 431 0 0 136 432 0 0 135 433 0 0 137 434 0 0 137 435 0 0 135 436 0 0 138 437 0 0 138 438 0 0 135 439 0 0 13 440 0 0 138 441 0 0 13 442 0 0 16 443 0 0 16 444 0 0 13 445 0 0 14 446 0 0 14 447 0 0 13 448 0 0 139 449 0 0 139 450 0 0 13 451 0 0 6 452 0 0 139 453 0 0 6 454 0 0 109 455 0 0 139 456 0 0 109 457 0 0 110 458 0 0 139 459 0 0 110 460 0 0 140 461 0 0 140 462 0 0 110 463 0 0 141 464 0 0 140 465 0 0 141 466 0 0 142 467 0 0 140 468 0 0 142 469 0 0 143 470 0 0 143 471 0 0 142 472 0 0 114 473 0 0 143 474 0 0 114 475 0 0 117 476 0 0 7 477 0 0 109 478 0 0 6 479 0 0 109 480 0 0 7 481 0 0 10 482 0 0 109 483 0 0 10 484 0 0 11 485 0 0 25 486 0 0 126 487 0 0 23 488 0 0 126 489 0 0 25 490 0 0 27 491 0 0 15 492 0 0 138 493 0 0 16 494 0 0</p></triangles>
+        <triangles count="181" material="&lt;Beige&gt;1"><input semantic="VERTEX" offset="0" source="#Susan_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Susan_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Susan_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Susan_001-UV1"/><p> 144 495 1 1 145 496 1 1 146 497 1 1 145 498 1 1 144 499 1 1 147 500 1 1 147 501 1 1 144 502 1 1 148 503 1 1 148 504 1 1 144 505 1 1 149 506 1 1 149 507 1 1 144 508 1 1 150 509 1 1 149 510 1 1 150 511 1 1 151 512 1 1 149 513 1 1 151 514 1 1 152 515 1 1 152 516 1 1 151 517 1 1 153 518 1 1 152 519 1 1 153 520 1 1 154 521 1 1 155 522 1 1 156 523 1 1 157 524 1 1 156 525 1 1 155 526 1 1 158 527 1 1 158 528 1 1 155 529 1 1 159 530 1 1 160 531 1 1 161 532 1 1 162 533 1 1 161 534 1 1 160 535 1 1 163 536 1 1 163 537 1 1 160 538 1 1 164 539 1 1 163 540 1 1 164 541 1 1 165 542 1 1 165 543 1 1 164 544 1 1 166 545 1 1 165 546 1 1 166 547 1 1 167 548 1 1 167 549 1 1 166 550 1 1 145 551 1 1 145 552 1 1 166 553 1 1 146 554 1 1 167 555 1 1 145 556 1 1 168 557 1 1 167 558 1 1 168 559 1 1 157 560 1 1 167 561 1 1 157 562 1 1 169 563 1 1 169 564 1 1 157 565 1 1 156 566 1 1 169 567 1 1 156 568 1 1 170 569 1 1 169 570 1 1 170 571 1 1 171 572 1 1 169 573 1 1 171 574 1 1 172 575 1 1 169 576 1 1 172 577 1 1 173 578 1 1 169 579 1 1 173 580 1 1 174 581 1 1 174 582 1 1 173 583 1 1 175 584 1 1 174 585 1 1 175 586 1 1 176 587 1 1 174 588 1 1 176 589 1 1 177 590 1 1 177 591 1 1 176 592 1 1 178 593 1 1 177 594 1 1 178 595 1 1 179 596 1 1 177 597 1 1 179 598 1 1 180 599 1 1 181 600 1 1 182 601 1 1 183 602 1 1 182 603 1 1 181 604 1 1 180 605 1 1 182 606 1 1 180 607 1 1 179 608 1 1 182 609 1 1 179 610 1 1 184 611 1 1 182 612 1 1 184 613 1 1 185 614 1 1 185 615 1 1 184 616 1 1 186 617 1 1 185 618 1 1 186 619 1 1 187 620 1 1 187 621 1 1 186 622 1 1 188 623 1 1 188 624 1 1 186 625 1 1 189 626 1 1 189 627 1 1 186 628 1 1 190 629 1 1 190 630 1 1 186 631 1 1 191 632 1 1 190 633 1 1 191 634 1 1 192 635 1 1 192 636 1 1 191 637 1 1 193 638 1 1 193 639 1 1 191 640 1 1 194 641 1 1 193 642 1 1 194 643 1 1 195 644 1 1 195 645 1 1 194 646 1 1 196 647 1 1 196 648 1 1 194 649 1 1 197 650 1 1 196 651 1 1 197 652 1 1 198 653 1 1 198 654 1 1 197 655 1 1 199 656 1 1 199 657 1 1 197 658 1 1 200 659 1 1 199 660 1 1 200 661 1 1 201 662 1 1 201 663 1 1 200 664 1 1 202 665 1 1 202 666 1 1 200 667 1 1 203 668 1 1 203 669 1 1 200 670 1 1 204 671 1 1 203 672 1 1 204 673 1 1 205 674 1 1 203 675 1 1 205 676 1 1 206 677 1 1 206 678 1 1 205 679 1 1 207 680 1 1 207 681 1 1 205 682 1 1 208 683 1 1 207 684 1 1 208 685 1 1 209 686 1 1 209 687 1 1 208 688 1 1 210 689 1 1 209 690 1 1 210 691 1 1 211 692 1 1 211 693 1 1 210 694 1 1 212 695 1 1 211 696 1 1 212 697 1 1 213 698 1 1 211 699 1 1 213 700 1 1 214 701 1 1 211 702 1 1 214 703 1 1 215 704 1 1 215 705 1 1 214 706 1 1 216 707 1 1 215 708 1 1 216 709 1 1 217 710 1 1 217 711 1 1 216 712 1 1 218 713 1 1 218 714 1 1 216 715 1 1 219 716 1 1 219 717 1 1 216 718 1 1 220 719 1 1 221 720 1 1 222 721 1 1 223 722 1 1 222 723 1 1 221 724 1 1 224 725 1 1 224 726 1 1 221 727 1 1 225 728 1 1 225 729 1 1 221 730 1 1 226 731 1 1 225 732 1 1 226 733 1 1 227 734 1 1 227 735 1 1 226 736 1 1 228 737 1 1 227 738 1 1 228 739 1 1 229 740 1 1 229 741 1 1 228 742 1 1 230 743 1 1 231 744 1 1 232 745 1 1 233 746 1 1 232 747 1 1 231 748 1 1 234 749 1 1 234 750 1 1 231 751 1 1 235 752 1 1 234 753 1 1 235 754 1 1 236 755 1 1 236 756 1 1 235 757 1 1 237 758 1 1 236 759 1 1 237 760 1 1 238 761 1 1 238 762 1 1 237 763 1 1 239 764 1 1 238 765 1 1 239 766 1 1 240 767 1 1 240 768 1 1 239 769 1 1 241 770 1 1 240 771 1 1 241 772 1 1 242 773 1 1 240 774 1 1 242 775 1 1 243 776 1 1 243 777 1 1 242 778 1 1 244 779 1 1 243 780 1 1 244 781 1 1 245 782 1 1 243 783 1 1 245 784 1 1 246 785 1 1 247 786 1 1 248 787 1 1 249 788 1 1 248 789 1 1 247 790 1 1 250 791 1 1 248 792 1 1 250 793 1 1 251 794 1 1 248 795 1 1 251 796 1 1 252 797 1 1 248 798 1 1 252 799 1 1 253 800 1 1 248 801 1 1 253 802 1 1 254 803 1 1 248 804 1 1 254 805 1 1 255 806 1 1 248 807 1 1 255 808 1 1 256 809 1 1 248 810 1 1 256 811 1 1 257 812 1 1 248 813 1 1 257 814 1 1 258 815 1 1 248 816 1 1 258 817 1 1 259 818 1 1 260 819 1 1 261 820 1 1 262 821 1 1 261 822 1 1 260 823 1 1 263 824 1 1 263 825 1 1 260 826 1 1 264 827 1 1 263 828 1 1 264 829 1 1 265 830 1 1 265 831 1 1 264 832 1 1 266 833 1 1 266 834 1 1 264 835 1 1 267 836 1 1 267 837 1 1 264 838 1 1 268 839 1 1 267 840 1 1 268 841 1 1 269 842 1 1 267 843 1 1 269 844 1 1 270 845 1 1 270 846 1 1 269 847 1 1 271 848 1 1 270 849 1 1 271 850 1 1 272 851 1 1 259 852 1 1 273 853 1 1 274 854 1 1 273 855 1 1 259 856 1 1 258 857 1 1 273 858 1 1 258 859 1 1 275 860 1 1 273 861 1 1 275 862 1 1 276 863 1 1 273 864 1 1 276 865 1 1 277 866 1 1 277 867 1 1 276 868 1 1 278 869 1 1 277 870 1 1 278 871 1 1 263 872 1 1 277 873 1 1 263 874 1 1 279 875 1 1 279 876 1 1 263 877 1 1 265 878 1 1 280 879 1 1 281 880 1 1 282 881 1 1 281 882 1 1 280 883 1 1 283 884 1 1 283 885 1 1 280 886 1 1 225 887 1 1 283 888 1 1 225 889 1 1 284 890 1 1 284 891 1 1 225 892 1 1 227 893 1 1 284 894 1 1 227 895 1 1 285 896 1 1 285 897 1 1 227 898 1 1 229 899 1 1 285 900 1 1 229 901 1 1 286 902 1 1 287 903 1 1 226 904 1 1 288 905 1 1 226 906 1 1 287 907 1 1 289 908 1 1 226 909 1 1 289 910 1 1 228 911 1 1 228 912 1 1 289 913 1 1 230 914 1 1 230 915 1 1 289 916 1 1 290 917 1 1 230 918 1 1 290 919 1 1 291 920 1 1 291 921 1 1 290 922 1 1 292 923 1 1 291 924 1 1 292 925 1 1 293 926 1 1 293 927 1 1 292 928 1 1 294 929 1 1 294 930 1 1 292 931 1 1 295 932 1 1 295 933 1 1 292 934 1 1 296 935 1 1 297 936 1 1 298 937 1 1 299 938 1 1 298 939 1 1 297 940 1 1 300 941 1 1 300 942 1 1 297 943 1 1 301 944 1 1 300 945 1 1 301 946 1 1 302 947 1 1 302 948 1 1 301 949 1 1 303 950 1 1 302 951 1 1 303 952 1 1 304 953 1 1 304 954 1 1 303 955 1 1 305 956 1 1 304 957 1 1 305 958 1 1 296 959 1 1 304 960 1 1 296 961 1 1 292 962 1 1 304 963 1 1 292 964 1 1 306 965 1 1 304 966 1 1 306 967 1 1 307 968 1 1 307 969 1 1 306 970 1 1 308 971 1 1 307 972 1 1 308 973 1 1 309 974 1 1 309 975 1 1 308 976 1 1 310 977 1 1 309 978 1 1 310 979 1 1 311 980 1 1 311 981 1 1 310 982 1 1 312 983 1 1 311 984 1 1 312 985 1 1 313 986 1 1 311 987 1 1 313 988 1 1 314 989 1 1 314 990 1 1 313 991 1 1 315 992 1 1 314 993 1 1 315 994 1 1 316 995 1 1 316 996 1 1 315 997 1 1 317 998 1 1 317 999 1 1 315 1000 1 1 318 1001 1 1 317 1002 1 1 318 1003 1 1 319 1004 1 1 319 1005 1 1 318 1006 1 1 320 1007 1 1 319 1008 1 1 320 1009 1 1 321 1010 1 1 321 1011 1 1 320 1012 1 1 322 1013 1 1 323 1014 1 1 324 1015 1 1 325 1016 1 1 324 1017 1 1 323 1018 1 1 326 1019 1 1 324 1020 1 1 326 1021 1 1 327 1022 1 1 327 1023 1 1 326 1024 1 1 328 1025 1 1 328 1026 1 1 326 1027 1 1 286 1028 1 1 328 1029 1 1 286 1030 1 1 294 1031 1 1 294 1032 1 1 286 1033 1 1 229 1034 1 1 294 1035 1 1 229 1036 1 1 293 1037 1 1</p></triangles>
+        <triangles count="59" material="Color_B24"><input semantic="VERTEX" offset="0" source="#Susan_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Susan_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Susan_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Susan_001-UV1"/><p> 329 1038 2 2 330 1039 2 2 331 1040 2 2 330 1041 2 2 329 1042 2 2 332 1043 2 2 330 1044 2 2 332 1045 2 2 333 1046 2 2 333 1047 2 2 332 1048 2 2 334 1049 2 2 333 1050 2 2 334 1051 2 2 335 1052 2 2 335 1053 2 2 334 1054 2 2 336 1055 2 2 336 1056 2 2 334 1057 2 2 337 1058 2 2 338 1059 2 2 339 1060 2 2 340 1061 2 2 339 1062 2 2 338 1063 2 2 341 1064 2 2 339 1065 2 2 341 1066 2 2 342 1067 2 2 342 1068 2 2 341 1069 2 2 343 1070 2 2 342 1071 2 2 343 1072 2 2 344 1073 2 2 344 1074 2 2 343 1075 2 2 345 1076 2 2 345 1077 2 2 343 1078 2 2 346 1079 2 2 346 1080 2 2 343 1081 2 2 347 1082 2 2 347 1083 2 2 343 1084 2 2 348 1085 2 2 348 1086 2 2 343 1087 2 2 337 1088 2 2 348 1089 2 2 337 1090 2 2 349 1091 2 2 349 1092 2 2 337 1093 2 2 350 1094 2 2 350 1095 2 2 337 1096 2 2 351 1097 2 2 351 1098 2 2 337 1099 2 2 334 1100 2 2 351 1101 2 2 334 1102 2 2 352 1103 2 2 351 1104 2 2 352 1105 2 2 353 1106 2 2 353 1107 2 2 352 1108 2 2 354 1109 2 2 354 1110 2 2 352 1111 2 2 355 1112 2 2 355 1113 2 2 352 1114 2 2 356 1115 2 2 355 1116 2 2 356 1117 2 2 357 1118 2 2 357 1119 2 2 356 1120 2 2 358 1121 2 2 358 1122 2 2 356 1123 2 2 359 1124 2 2 359 1125 2 2 356 1126 2 2 360 1127 2 2 360 1128 2 2 356 1129 2 2 361 1130 2 2 360 1131 2 2 361 1132 2 2 362 1133 2 2 362 1134 2 2 361 1135 2 2 363 1136 2 2 363 1137 2 2 361 1138 2 2 364 1139 2 2 364 1140 2 2 361 1141 2 2 365 1142 2 2 365 1143 2 2 361 1144 2 2 366 1145 2 2 365 1146 2 2 366 1147 2 2 367 1148 2 2 367 1149 2 2 366 1150 2 2 368 1151 2 2 368 1152 2 2 366 1153 2 2 369 1154 2 2 369 1155 2 2 366 1156 2 2 370 1157 2 2 370 1158 2 2 366 1159 2 2 371 1160 2 2 372 1161 2 2 373 1162 2 2 374 1163 2 2 373 1164 2 2 372 1165 2 2 375 1166 2 2 373 1167 2 2 375 1168 2 2 376 1169 2 2 373 1170 2 2 376 1171 2 2 377 1172 2 2 377 1173 2 2 376 1174 2 2 378 1175 2 2 377 1176 2 2 378 1177 2 2 371 1178 2 2 377 1179 2 2 371 1180 2 2 366 1181 2 2 377 1182 2 2 366 1183 2 2 379 1184 2 2 377 1185 2 2 379 1186 2 2 380 1187 2 2 380 1188 2 2 379 1189 2 2 381 1190 2 2 380 1191 2 2 381 1192 2 2 382 1193 2 2 382 1194 2 2 381 1195 2 2 383 1196 2 2 382 1197 2 2 383 1198 2 2 384 1199 2 2 384 1200 2 2 383 1201 2 2 385 1202 2 2 384 1203 2 2 385 1204 2 2 386 1205 2 2 387 1206 2 2 388 1207 2 2 389 1208 2 2 388 1209 2 2 387 1210 2 2 345 1211 2 2 388 1212 2 2 345 1213 2 2 346 1214 2 2</p></triangles>
+        <triangles count="8" material="&lt;LightGray&gt;"><input semantic="VERTEX" offset="0" source="#Susan_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Susan_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Susan_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Susan_001-UV1"/><p> 390 1215 3 3 391 1216 3 3 392 1217 3 3 391 1218 3 3 390 1219 3 3 393 1220 3 3 391 1221 3 3 393 1222 3 3 394 1223 3 3 394 1224 3 3 393 1225 3 3 395 1226 3 3 395 1227 3 3 393 1228 3 3 396 1229 3 3 395 1230 3 3 396 1231 3 3 397 1232 3 3 398 1233 3 3 399 1234 3 3 400 1235 3 3 399 1236 3 3 398 1237 3 3 401 1238 3 3</p></triangles>
+        <triangles count="28" material="_0135_DarkGray"><input semantic="VERTEX" offset="0" source="#Susan_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Susan_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Susan_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Susan_001-UV1"/><p> 402 1239 4 4 403 1240 4 4 404 1241 4 4 403 1242 4 4 402 1243 4 4 405 1244 4 4 403 1245 4 4 405 1246 4 4 406 1247 4 4 403 1248 4 4 406 1249 4 4 407 1250 4 4 407 1251 4 4 408 1252 4 4 409 1253 4 4 408 1254 4 4 407 1255 4 4 406 1256 4 4 409 1257 4 4 408 1258 4 4 410 1259 4 4 409 1260 4 4 411 1261 4 4 412 1262 4 4 411 1263 4 4 409 1264 4 4 410 1265 4 4 411 1266 4 4 410 1267 4 4 413 1268 4 4 411 1269 4 4 413 1270 4 4 414 1271 4 4 414 1272 4 4 413 1273 4 4 415 1274 4 4 415 1275 4 4 413 1276 4 4 416 1277 4 4 415 1278 4 4 416 1279 4 4 417 1280 4 4 415 1281 4 4 417 1282 4 4 418 1283 4 4 418 1284 4 4 417 1285 4 4 419 1286 4 4 419 1287 4 4 417 1288 4 4 420 1289 4 4 421 1290 4 4 422 1291 4 4 423 1292 4 4 422 1293 4 4 421 1294 4 4 424 1295 4 4 424 1296 4 4 421 1297 4 4 425 1298 4 4 425 1299 4 4 421 1300 4 4 426 1301 4 4 427 1302 4 4 428 1303 4 4 429 1304 4 4 428 1305 4 4 427 1306 4 4 430 1307 4 4 428 1308 4 4 430 1309 4 4 431 1310 4 4 428 1311 4 4 431 1312 4 4 432 1313 4 4 432 1314 4 4 431 1315 4 4 433 1316 4 4 434 1317 4 4 435 1318 4 4 436 1319 4 4 435 1320 4 4 434 1321 4 4 437 1322 4 4</p></triangles>
+        <triangles count="139" material="jean blue"><input semantic="VERTEX" offset="0" source="#Susan_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Susan_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Susan_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Susan_001-UV1"/><p> 438 1323 5 5 439 1324 5 5 440 1325 5 5 439 1326 5 5 438 1327 5 5 441 1328 5 5 441 1329 5 5 438 1330 5 5 442 1331 5 5 441 1332 5 5 442 1333 5 5 443 1334 5 5 443 1335 5 5 442 1336 5 5 444 1337 5 5 445 1338 5 5 446 1339 5 5 447 1340 5 5 446 1341 5 5 445 1342 5 5 448 1343 5 5 446 1344 5 5 448 1345 5 5 449 1346 5 5 449 1347 5 5 448 1348 5 5 450 1349 5 5 449 1350 5 5 450 1351 5 5 451 1352 5 5 451 1353 5 5 450 1354 5 5 452 1355 5 5 451 1356 5 5 452 1357 5 5 453 1358 5 5 451 1359 5 5 453 1360 5 5 454 1361 5 5 454 1362 5 5 453 1363 5 5 455 1364 5 5 455 1365 5 5 453 1366 5 5 456 1367 5 5 456 1368 5 5 453 1369 5 5 457 1370 5 5 456 1371 5 5 457 1372 5 5 458 1373 5 5 458 1374 5 5 457 1375 5 5 459 1376 5 5 458 1377 5 5 459 1378 5 5 460 1379 5 5 458 1380 5 5 460 1381 5 5 461 1382 5 5 461 1383 5 5 460 1384 5 5 462 1385 5 5 461 1386 5 5 462 1387 5 5 463 1388 5 5 461 1389 5 5 463 1390 5 5 464 1391 5 5 464 1392 5 5 463 1393 5 5 465 1394 5 5 465 1395 5 5 463 1396 5 5 466 1397 5 5 466 1398 5 5 463 1399 5 5 467 1400 5 5 467 1401 5 5 463 1402 5 5 468 1403 5 5 467 1404 5 5 468 1405 5 5 469 1406 5 5 467 1407 5 5 469 1408 5 5 470 1409 5 5 470 1410 5 5 469 1411 5 5 471 1412 5 5 470 1413 5 5 471 1414 5 5 472 1415 5 5 472 1416 5 5 471 1417 5 5 473 1418 5 5 473 1419 5 5 471 1420 5 5 474 1421 5 5 474 1422 5 5 471 1423 5 5 475 1424 5 5 475 1425 5 5 471 1426 5 5 476 1427 5 5 476 1428 5 5 471 1429 5 5 477 1430 5 5 477 1431 5 5 471 1432 5 5 478 1433 5 5 473 1434 5 5 474 1435 5 5 479 1436 5 5 474 1437 5 5 475 1438 5 5 480 1439 5 5 480 1440 5 5 475 1441 5 5 481 1442 5 5 477 1443 5 5 478 1444 5 5 482 1445 5 5 483 1446 5 5 484 1447 5 5 485 1448 5 5 484 1449 5 5 483 1450 5 5 486 1451 5 5 484 1452 5 5 486 1453 5 5 487 1454 5 5 487 1455 5 5 486 1456 5 5 488 1457 5 5 488 1458 5 5 486 1459 5 5 489 1460 5 5 488 1461 5 5 489 1462 5 5 490 1463 5 5 490 1464 5 5 489 1465 5 5 491 1466 5 5 492 1467 5 5 493 1468 5 5 494 1469 5 5 493 1470 5 5 492 1471 5 5 495 1472 5 5 472 1473 5 5 496 1474 5 5 497 1475 5 5 496 1476 5 5 472 1477 5 5 473 1478 5 5 497 1479 5 5 496 1480 5 5 498 1481 5 5 498 1482 5 5 496 1483 5 5 499 1484 5 5 497 1485 5 5 498 1486 5 5 500 1487 5 5 497 1488 5 5 500 1489 5 5 501 1490 5 5 497 1491 5 5 501 1492 5 5 502 1493 5 5 502 1494 5 5 501 1495 5 5 485 1496 5 5 485 1497 5 5 501 1498 5 5 483 1499 5 5 497 1500 5 5 502 1501 5 5 503 1502 5 5 497 1503 5 5 503 1504 5 5 504 1505 5 5 497 1506 5 5 504 1507 5 5 505 1508 5 5 505 1509 5 5 504 1510 5 5 506 1511 5 5 505 1512 5 5 506 1513 5 5 507 1514 5 5 507 1515 5 5 506 1516 5 5 508 1517 5 5 508 1518 5 5 506 1519 5 5 509 1520 5 5 509 1521 5 5 506 1522 5 5 510 1523 5 5 509 1524 5 5 510 1525 5 5 511 1526 5 5 511 1527 5 5 510 1528 5 5 512 1529 5 5 511 1530 5 5 512 1531 5 5 513 1532 5 5 513 1533 5 5 512 1534 5 5 492 1535 5 5 513 1536 5 5 492 1537 5 5 514 1538 5 5 514 1539 5 5 492 1540 5 5 515 1541 5 5 515 1542 5 5 492 1543 5 5 494 1544 5 5 515 1545 5 5 494 1546 5 5 516 1547 5 5 515 1548 5 5 516 1549 5 5 517 1550 5 5 515 1551 5 5 517 1552 5 5 518 1553 5 5 515 1554 5 5 519 1555 5 5 514 1556 5 5 520 1557 5 5 521 1558 5 5 522 1559 5 5 521 1560 5 5 520 1561 5 5 523 1562 5 5 523 1563 5 5 520 1564 5 5 524 1565 5 5 524 1566 5 5 520 1567 5 5 525 1568 5 5 525 1569 5 5 520 1570 5 5 526 1571 5 5 526 1572 5 5 520 1573 5 5 527 1574 5 5 527 1575 5 5 520 1576 5 5 528 1577 5 5 528 1578 5 5 520 1579 5 5 529 1580 5 5 529 1581 5 5 520 1582 5 5 530 1583 5 5 530 1584 5 5 520 1585 5 5 531 1586 5 5 530 1587 5 5 531 1588 5 5 532 1589 5 5 532 1590 5 5 531 1591 5 5 533 1592 5 5 533 1593 5 5 531 1594 5 5 534 1595 5 5 534 1596 5 5 531 1597 5 5 535 1598 5 5 535 1599 5 5 531 1600 5 5 536 1601 5 5 536 1602 5 5 531 1603 5 5 537 1604 5 5 537 1605 5 5 531 1606 5 5 538 1607 5 5 538 1608 5 5 531 1609 5 5 539 1610 5 5 539 1611 5 5 531 1612 5 5 508 1613 5 5 508 1614 5 5 531 1615 5 5 507 1616 5 5 535 1617 5 5 540 1618 5 5 541 1619 5 5 540 1620 5 5 535 1621 5 5 536 1622 5 5 542 1623 5 5 480 1624 5 5 481 1625 5 5 479 1626 5 5 543 1627 5 5 544 1628 5 5 543 1629 5 5 479 1630 5 5 545 1631 5 5 545 1632 5 5 479 1633 5 5 474 1634 5 5 546 1635 5 5 498 1636 5 5 499 1637 5 5 498 1638 5 5 546 1639 5 5 547 1640 5 5 547 1641 5 5 546 1642 5 5 548 1643 5 5 548 1644 5 5 546 1645 5 5 549 1646 5 5 548 1647 5 5 549 1648 5 5 550 1649 5 5 551 1650 5 5 552 1651 5 5 553 1652 5 5 552 1653 5 5 551 1654 5 5 554 1655 5 5 552 1656 5 5 554 1657 5 5 443 1658 5 5 552 1659 5 5 443 1660 5 5 444 1661 5 5 552 1662 5 5 444 1663 5 5 555 1664 5 5 552 1665 5 5 555 1666 5 5 556 1667 5 5 556 1668 5 5 555 1669 5 5 557 1670 5 5 556 1671 5 5 557 1672 5 5 558 1673 5 5 556 1674 5 5 558 1675 5 5 559 1676 5 5 559 1677 5 5 558 1678 5 5 560 1679 5 5 560 1680 5 5 558 1681 5 5 561 1682 5 5 560 1683 5 5 561 1684 5 5 562 1685 5 5 562 1686 5 5 561 1687 5 5 563 1688 5 5 562 1689 5 5 563 1690 5 5 564 1691 5 5 564 1692 5 5 563 1693 5 5 565 1694 5 5 565 1695 5 5 563 1696 5 5 566 1697 5 5 566 1698 5 5 563 1699 5 5 567 1700 5 5 566 1701 5 5 567 1702 5 5 568 1703 5 5 566 1704 5 5 568 1705 5 5 569 1706 5 5 569 1707 5 5 568 1708 5 5 570 1709 5 5 569 1710 5 5 570 1711 5 5 571 1712 5 5 571 1713 5 5 570 1714 5 5 572 1715 5 5 571 1716 5 5 572 1717 5 5 573 1718 5 5 573 1719 5 5 572 1720 5 5 574 1721 5 5 573 1722 5 5 574 1723 5 5 575 1724 5 5 573 1725 5 5 575 1726 5 5 576 1727 5 5 576 1728 5 5 575 1729 5 5 520 1730 5 5 576 1731 5 5 520 1732 5 5 522 1733 5 5 576 1734 5 5 522 1735 5 5 577 1736 5 5 576 1737 5 5 577 1738 5 5 578 1739 5 5</p></triangles>
+        <triangles count="49" material="&lt;Charcoal&gt;"><input semantic="VERTEX" offset="0" source="#Susan_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Susan_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Susan_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Susan_001-UV1"/><p> 579 1740 6 6 580 1741 6 6 581 1742 6 6 580 1743 6 6 579 1744 6 6 582 1745 6 6 582 1746 6 6 579 1747 6 6 583 1748 6 6 582 1749 6 6 583 1750 6 6 584 1751 6 6 584 1752 6 6 583 1753 6 6 585 1754 6 6 582 1755 6 6 584 1756 6 6 586 1757 6 6 584 1758 6 6 585 1759 6 6 587 1760 6 6 587 1761 6 6 585 1762 6 6 588 1763 6 6 587 1764 6 6 588 1765 6 6 589 1766 6 6 589 1767 6 6 588 1768 6 6 590 1769 6 6 589 1770 6 6 590 1771 6 6 591 1772 6 6 586 1773 6 6 592 1774 6 6 582 1775 6 6 592 1776 6 6 586 1777 6 6 593 1778 6 6 592 1779 6 6 593 1780 6 6 594 1781 6 6 592 1782 6 6 594 1783 6 6 595 1784 6 6 595 1785 6 6 594 1786 6 6 596 1787 6 6 595 1788 6 6 596 1789 6 6 597 1790 6 6 597 1791 6 6 596 1792 6 6 598 1793 6 6 597 1794 6 6 598 1795 6 6 599 1796 6 6 598 1797 6 6 600 1798 6 6 599 1799 6 6 600 1800 6 6 598 1801 6 6 601 1802 6 6 600 1803 6 6 601 1804 6 6 602 1805 6 6 600 1806 6 6 602 1807 6 6 603 1808 6 6 604 1809 6 6 605 1810 6 6 606 1811 6 6 605 1812 6 6 604 1813 6 6 607 1814 6 6 605 1815 6 6 607 1816 6 6 599 1817 6 6 599 1818 6 6 607 1819 6 6 597 1820 6 6 608 1821 6 6 609 1822 6 6 610 1823 6 6 609 1824 6 6 608 1825 6 6 611 1826 6 6 612 1827 6 6 613 1828 6 6 614 1829 6 6 613 1830 6 6 612 1831 6 6 615 1832 6 6 615 1833 6 6 612 1834 6 6 610 1835 6 6 615 1836 6 6 610 1837 6 6 609 1838 6 6 615 1839 6 6 609 1840 6 6 616 1841 6 6 615 1842 6 6 616 1843 6 6 617 1844 6 6 617 1845 6 6 616 1846 6 6 618 1847 6 6 618 1848 6 6 616 1849 6 6 619 1850 6 6 618 1851 6 6 619 1852 6 6 620 1853 6 6 620 1854 6 6 619 1855 6 6 621 1856 6 6 620 1857 6 6 621 1858 6 6 622 1859 6 6 622 1860 6 6 621 1861 6 6 623 1862 6 6 622 1863 6 6 623 1864 6 6 624 1865 6 6 617 1866 6 6 625 1867 6 6 615 1868 6 6 625 1869 6 6 617 1870 6 6 626 1871 6 6 627 1872 6 6 628 1873 6 6 629 1874 6 6 628 1875 6 6 627 1876 6 6 630 1877 6 6 628 1878 6 6 630 1879 6 6 631 1880 6 6 631 1881 6 6 630 1882 6 6 632 1883 6 6 631 1884 6 6 632 1885 6 6 633 1886 6 6</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Layer0_001-lib" name="Layer0_001Mesh">
+      <mesh>
+        <source id="Layer0_001-POSITION">
+          <float_array id="Layer0_001-POSITION-array" count="750">
+-657.157593 2441.500000 -457.781250
+-683.359375 -2441.500000 -457.781250
+-683.359375 2441.500000 -457.781250
+-657.157593 -2441.500000 -457.781250
+-435.046875 2441.500000 -457.781250
+-435.046875 -2441.500000 -457.781250
+-435.046875 74.476563 -457.781250
+-435.046875 -182.634766 -457.781250
+-261.022247 670.000977 -457.781250
+-277.390625 74.476563 -457.781250
+-277.390625 545.670654 -457.781250
+-277.390625 -182.634766 -457.781250
+-277.390625 -779.079346 -457.781250
+-261.022247 -903.409546 -457.781250
+-213.032593 -1019.266846 -457.781250
+-213.032593 785.858154 -457.781250
+-136.692017 -1118.755737 -457.781250
+-136.692017 885.347168 -457.781250
+-37.203125 -1195.096313 -457.781250
+-37.203125 961.687744 -457.781250
+78.654175 -1243.085938 -457.781250
+78.654175 1009.677246 -457.781250
+202.984375 -1259.454346 -457.781250
+202.984375 1026.045654 -457.781250
+327.314575 -1243.085938 -457.781250
+327.314575 1009.677246 -457.781250
+443.171875 -1195.096313 -457.781250
+443.171875 961.687744 -457.781250
+542.660767 -1118.755737 -457.781250
+542.660767 885.347168 -457.781250
+619.001343 -1019.266846 -457.781250
+619.001343 785.858154 -457.781250
+666.990967 -903.409546 -457.781250
+666.990967 670.000977 -457.781250
+683.359375 545.670654 -457.781250
+683.359375 -779.079346 -457.781250
+-261.022247 -903.409546 145.656250
+683.359375 -779.079346 145.656250
+-277.390625 -779.079346 145.656250
+-213.032593 -1019.266846 145.656250
+-136.692017 -1118.755737 145.656250
+-37.203125 -1195.096313 145.656250
+78.654175 -1243.085938 145.656250
+202.984375 -1259.454346 145.656250
+327.314575 -1243.085938 145.656250
+443.171875 -1195.096313 145.656250
+542.660767 -1118.755737 145.656250
+619.001343 -1019.266846 145.656250
+666.990967 -903.409546 145.656250
+-277.390625 74.476563 -341.973694
+-277.390625 -182.634766 -341.973694
+683.359375 -428.829346 145.656250
+-277.390625 195.420654 145.656250
+-277.390625 -428.829346 145.656250
+683.359375 195.420654 145.656250
+683.359375 545.670654 145.656250
+-261.022247 670.000977 145.656250
+-277.390625 545.670654 145.656250
+-213.032593 785.858154 145.656250
+-136.692017 885.347168 145.656250
+-37.203125 961.687744 145.656250
+78.654175 1009.677246 145.656250
+202.984375 1026.045654 145.656250
+327.314575 1009.677246 145.656250
+443.171875 961.687744 145.656250
+542.660767 885.347168 145.656250
+619.001343 785.858154 145.656250
+666.990967 670.000977 145.656250
+202.984375 -35.920410 447.145874
+202.984375 -116.704346 457.781250
+-345.515625 74.476563 -350.559753
+-345.515625 74.476563 -341.973694
+-435.046875 -2220.680908 -361.843750
+-657.157593 2228.625000 -361.843750
+-657.157593 -2220.680908 -361.843750
+-435.046875 2228.625000 -361.843750
+-435.046875 -182.634766 -361.843750
+-435.046875 74.476563 -361.843750
+-657.157593 2441.500000 -457.781250
+-435.046875 2441.500000 -457.781250
+-435.046875 -2441.500000 -457.781250
+-657.157593 -2441.500000 -457.781250
+-683.359375 -2220.680908 -361.843750
+-683.359375 2441.500000 -457.781250
+-683.359375 -2441.500000 -457.781250
+-683.359375 2228.625000 -361.843750
+-435.046875 2441.500000 -457.781250
+-435.046875 74.476563 -361.843750
+-435.046875 74.476563 -457.781250
+-435.046875 2228.625000 -361.843750
+-435.046875 -182.634766 -457.781250
+-435.046875 -2220.680908 -361.843750
+-435.046875 -2441.500000 -457.781250
+-435.046875 -182.634766 -361.843750
+-657.157593 2228.625000 -361.843750
+-683.359375 2441.500000 -457.781250
+-683.359375 2228.625000 -361.843750
+-657.157593 2441.500000 -457.781250
+-657.157593 -2220.680908 -361.843750
+-683.359375 -2220.680908 -361.843750
+-657.157593 -2441.500000 -457.781250
+-683.359375 -2441.500000 -457.781250
+-261.022247 670.000977 145.656250
+-277.390625 545.670654 -457.781250
+-277.390625 545.670654 145.656250
+-261.022247 670.000977 -457.781250
+-213.032593 785.858154 145.656250
+-213.032593 785.858154 -457.781250
+-136.692017 885.347168 145.656250
+-136.692017 885.347168 -457.781250
+-37.203125 961.687744 -457.781250
+-37.203125 961.687744 145.656250
+78.654175 1009.677246 -457.781250
+78.654175 1009.677246 145.656250
+202.984375 1026.045654 -457.781250
+202.984375 1026.045654 145.656250
+327.314575 1009.677246 -457.781250
+327.314575 1009.677246 145.656250
+443.171875 961.687744 -457.781250
+443.171875 961.687744 145.656250
+542.660767 885.347168 -457.781250
+542.660767 885.347168 145.656250
+619.001343 785.858154 145.656250
+619.001343 785.858154 -457.781250
+666.990967 670.000977 145.656250
+666.990967 670.000977 -457.781250
+683.359375 545.670654 145.656250
+683.359375 545.670654 -457.781250
+683.359375 -779.079346 145.656250
+683.359375 -779.079346 -457.781250
+683.359375 -428.829346 145.656250
+683.359375 195.420654 145.656250
+666.990967 -903.409546 145.656250
+666.990967 -903.409546 -457.781250
+619.001343 -1019.266846 145.656250
+619.001343 -1019.266846 -457.781250
+542.660767 -1118.755737 145.656250
+542.660767 -1118.755737 -457.781250
+443.171875 -1195.096313 -457.781250
+443.171875 -1195.096313 145.656250
+327.314575 -1243.085938 -457.781250
+327.314575 -1243.085938 145.656250
+202.984375 -1259.454346 -457.781250
+202.984375 -1259.454346 145.656250
+78.654175 -1243.085938 -457.781250
+78.654175 -1243.085938 145.656250
+-37.203125 -1195.096313 -457.781250
+-37.203125 -1195.096313 145.656250
+-136.692017 -1118.755737 -457.781250
+-136.692017 -1118.755737 145.656250
+-213.032593 -1019.266846 145.656250
+-213.032593 -1019.266846 -457.781250
+-261.022247 -903.409546 145.656250
+-261.022247 -903.409546 -457.781250
+-277.390625 -779.079346 145.656250
+-277.390625 -779.079346 -457.781250
+-277.390625 195.420654 145.656250
+-277.390625 -182.634766 -128.411194
+-277.390625 -428.829346 145.656250
+-277.390625 74.476563 -128.411194
+-277.390625 74.476563 -341.973694
+-277.390625 74.476563 -457.781250
+-277.390625 -182.634766 -457.781250
+-277.390625 -182.634766 -341.973694
+-277.390625 -272.766846 415.964417
+-277.390625 -428.829346 145.656250
+-277.390625 -779.079346 145.656250
+-277.390625 195.420654 145.656250
+-277.390625 -197.488281 447.145874
+-277.390625 -116.704346 457.781250
+-277.390625 -35.920410 447.145874
+-277.390625 39.358154 415.964417
+-277.390625 545.670654 145.656250
+683.359375 -428.829346 145.656250
+683.359375 -272.766846 415.964417
+683.359375 -779.079346 145.656250
+683.359375 195.420654 145.656250
+683.359375 -197.488281 447.145874
+683.359375 -116.704346 457.781250
+683.359375 -35.920410 447.145874
+683.359375 39.358154 415.964417
+683.359375 104.001465 366.361938
+683.359375 119.123779 346.654114
+683.359375 153.603760 301.718750
+683.359375 184.785400 226.440125
+202.984375 -116.704346 457.781250
+202.984375 -35.920410 447.145874
+683.359375 545.670654 145.656250
+202.984375 1026.045654 145.656250
+78.654175 1009.677246 145.656250
+-37.203125 961.687744 145.656250
+-136.692017 885.347168 145.656250
+-213.032593 785.858154 145.656250
+-261.022247 670.000977 145.656250
+327.314575 1009.677246 145.656250
+443.171875 961.687744 145.656250
+542.660767 885.347168 145.656250
+619.001343 785.858154 145.656250
+666.990967 670.000977 145.656250
+666.990967 -903.409546 145.656250
+619.001343 -1019.266846 145.656250
+542.660767 -1118.755737 145.656250
+443.171875 -1195.096313 145.656250
+327.314575 -1243.085938 145.656250
+202.984375 -1259.454346 145.656250
+78.654175 -1243.085938 145.656250
+-37.203125 -1195.096313 145.656250
+-136.692017 -1118.755737 145.656250
+-213.032593 -1019.266846 145.656250
+-261.022247 -903.409546 145.656250
+-277.390625 -182.634766 -341.973694
+-345.515625 -171.559326 -350.559753
+-345.515625 -182.634766 -350.559753
+-345.515625 -59.819824 -350.559753
+-345.515625 -42.291748 -350.559753
+-345.515625 60.315674 -350.559753
+-345.515625 74.476563 -350.559753
+-277.390625 74.476563 -341.973694
+-435.046875 -182.634766 -457.781250
+-277.390625 -182.634766 -457.781250
+-435.046875 -182.634766 -361.843750
+-435.046875 74.476563 -361.843750
+-277.390625 74.476563 -457.781250
+-435.046875 74.476563 -457.781250
+-345.515625 -59.819824 -137.059753
+-345.515625 -171.559326 -350.559753
+-345.515625 -171.559326 -137.059753
+-345.515625 -59.819824 -350.559753
+-345.515625 60.315674 -137.059753
+-345.515625 -42.291748 -350.559753
+-345.515625 -44.199219 -137.059753
+-345.515625 60.315674 -350.559753
+-277.390625 -182.634766 -128.411194
+-345.515625 74.476563 -128.411194
+-345.515625 -182.634766 -128.411194
+-277.390625 74.476563 -128.411194
+-277.390625 74.476563 -341.973694
+-345.515625 74.476563 -341.973694
+-345.515625 -182.634766 -341.973694
+-277.390625 -182.634766 -341.973694
+-345.515625 -182.634766 -350.559753
+-345.515625 -171.559326 -137.059753
+-345.515625 -59.819824 -137.059753
+-345.515625 -44.199219 -137.059753
+-345.515625 60.315674 -137.059753
+-345.515625 60.315674 -350.559753
+-345.515625 74.476563 -350.559753
+-345.515625 -171.559326 -350.559753
+-345.515625 -59.819824 -350.559753
+-345.515625 -42.291748 -350.559753
+</float_array>
+          <technique_common>
+            <accessor source="#Layer0_001-POSITION-array" count="250" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Layer0_001-Normal0">
+          <float_array id="Layer0_001-Normal0-array" count="2286">
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.460226 -0.887802
+0.000000 -0.460226 -0.887802
+0.000000 -0.460226 -0.887802
+0.000000 0.426266 -0.904598
+0.000000 0.426266 -0.904598
+0.000000 0.426266 -0.904598
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.410877 0.911691
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+0.000000 -0.398479 0.917178
+-0.965926 0.258819 0.000000
+-0.991445 0.130526 0.000000
+-0.991445 0.130526 0.000000
+-0.991445 0.130526 0.000000
+-0.965926 0.258819 0.000000
+-0.965926 0.258819 0.000000
+-0.866025 0.500000 0.000000
+-0.965926 0.258819 0.000000
+-0.965926 0.258819 0.000000
+-0.965926 0.258819 0.000000
+-0.866025 0.500000 0.000000
+-0.866025 0.500000 0.000000
+-0.707107 0.707107 0.000000
+-0.866025 0.500000 0.000000
+-0.866025 0.500000 0.000000
+-0.866025 0.500000 0.000000
+-0.707107 0.707107 0.000000
+-0.707107 0.707107 0.000000
+-0.707107 0.707107 0.000000
+-0.500000 0.866025 0.000000
+-0.707107 0.707107 0.000000
+-0.500000 0.866025 0.000000
+-0.707107 0.707107 0.000000
+-0.500000 0.866025 0.000000
+-0.500000 0.866025 0.000000
+-0.258819 0.965926 0.000000
+-0.500000 0.866025 0.000000
+-0.258819 0.965926 0.000000
+-0.500000 0.866025 0.000000
+-0.258819 0.965926 0.000000
+-0.258819 0.965926 0.000000
+-0.000000 1.000000 0.000000
+-0.258819 0.965926 0.000000
+-0.000000 1.000000 0.000000
+-0.258819 0.965926 0.000000
+-0.000000 1.000000 0.000000
+-0.000000 1.000000 0.000000
+0.258819 0.965926 0.000000
+-0.000000 1.000000 0.000000
+0.258819 0.965926 0.000000
+-0.000000 1.000000 0.000000
+0.258819 0.965926 0.000000
+0.258819 0.965926 0.000000
+0.500000 0.866025 0.000000
+0.258819 0.965926 0.000000
+0.500000 0.866025 0.000000
+0.258819 0.965926 0.000000
+0.500000 0.866025 0.000000
+0.500000 0.866025 0.000000
+0.707107 0.707107 0.000000
+0.500000 0.866025 0.000000
+0.707107 0.707107 0.000000
+0.500000 0.866025 0.000000
+0.707107 0.707107 0.000000
+0.707107 0.707107 0.000000
+0.866025 0.500000 0.000000
+0.866025 0.500000 0.000000
+0.866025 0.500000 0.000000
+0.707107 0.707107 0.000000
+0.707107 0.707107 0.000000
+0.866025 0.500000 0.000000
+0.965926 0.258819 0.000000
+0.965926 0.258819 0.000000
+0.965926 0.258819 0.000000
+0.866025 0.500000 0.000000
+0.866025 0.500000 0.000000
+0.965926 0.258819 0.000000
+0.991445 0.130526 0.000000
+0.991445 0.130526 0.000000
+0.991445 0.130526 0.000000
+0.965926 0.258819 0.000000
+0.965926 0.258819 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.991445 -0.130526 0.000000
+0.965926 -0.258819 0.000000
+0.965926 -0.258819 0.000000
+0.965926 -0.258819 0.000000
+0.991445 -0.130526 0.000000
+0.991445 -0.130526 0.000000
+0.965926 -0.258819 0.000000
+0.866025 -0.500000 0.000000
+0.866025 -0.500000 0.000000
+0.866025 -0.500000 0.000000
+0.965926 -0.258819 0.000000
+0.965926 -0.258819 0.000000
+0.866025 -0.500000 0.000000
+0.707107 -0.707107 0.000000
+0.707107 -0.707107 0.000000
+0.707107 -0.707107 0.000000
+0.866025 -0.500000 0.000000
+0.866025 -0.500000 0.000000
+0.707107 -0.707107 0.000000
+0.500000 -0.866025 0.000000
+0.707107 -0.707107 0.000000
+0.500000 -0.866025 0.000000
+0.707107 -0.707107 0.000000
+0.500000 -0.866025 0.000000
+0.500000 -0.866025 0.000000
+0.258819 -0.965926 0.000000
+0.500000 -0.866025 0.000000
+0.258819 -0.965926 0.000000
+0.500000 -0.866025 0.000000
+0.258819 -0.965926 0.000000
+0.258819 -0.965926 0.000000
+0.000000 -1.000000 0.000000
+0.258819 -0.965926 0.000000
+0.000000 -1.000000 0.000000
+0.258819 -0.965926 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.258819 -0.965926 0.000000
+0.000000 -1.000000 0.000000
+-0.258819 -0.965926 0.000000
+0.000000 -1.000000 0.000000
+-0.258819 -0.965926 0.000000
+-0.258819 -0.965926 0.000000
+-0.500000 -0.866025 0.000000
+-0.258819 -0.965926 0.000000
+-0.500000 -0.866025 0.000000
+-0.258819 -0.965926 0.000000
+-0.500000 -0.866025 0.000000
+-0.500000 -0.866025 0.000000
+-0.707107 -0.707107 0.000000
+-0.500000 -0.866025 0.000000
+-0.707107 -0.707107 0.000000
+-0.500000 -0.866025 0.000000
+-0.707107 -0.707107 0.000000
+-0.866025 -0.500000 0.000000
+-0.707107 -0.707107 0.000000
+-0.707107 -0.707107 0.000000
+-0.707107 -0.707107 0.000000
+-0.866025 -0.500000 0.000000
+-0.866025 -0.500000 0.000000
+-0.965926 -0.258819 0.000000
+-0.866025 -0.500000 0.000000
+-0.866025 -0.500000 0.000000
+-0.866025 -0.500000 0.000000
+-0.965926 -0.258819 0.000000
+-0.965926 -0.258819 0.000000
+-0.991445 -0.130526 0.000000
+-0.965926 -0.258819 0.000000
+-0.965926 -0.258819 0.000000
+-0.965926 -0.258819 0.000000
+-0.991445 -0.130526 0.000000
+-0.991445 -0.130526 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -0.427332 0.904095
+0.000000 -0.258819 0.965926
+0.000000 -0.427332 0.904095
+0.000000 -0.258819 0.965926
+0.000000 -0.427332 0.904095
+0.000000 -0.258819 0.965926
+0.000000 -0.258819 0.965926
+0.000000 0.000000 1.000000
+0.000000 -0.258819 0.965926
+0.000000 0.000000 1.000000
+0.000000 -0.258819 0.965926
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.258819 0.965926
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.258819 0.965926
+0.000000 0.000000 1.000000
+0.000000 0.258819 0.965926
+0.000000 0.000000 1.000000
+0.000000 0.258819 0.965926
+0.000000 0.258819 0.965926
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.258819 0.965926
+0.000000 0.000000 1.000000
+0.000000 0.258819 0.965926
+0.000000 0.258819 0.965926
+0.000000 0.427332 0.904095
+0.000000 0.258819 0.965926
+0.000000 0.427332 0.904095
+0.000000 0.258819 0.965926
+0.000000 0.427332 0.904095
+0.000000 0.427332 0.904095
+0.000000 0.258819 0.965926
+0.000000 0.258819 0.965926
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -0.470961 0.882154
+0.000000 -0.427332 0.904095
+0.000000 -0.470961 0.882154
+0.000000 -0.427332 0.904095
+0.000000 -0.470961 0.882154
+0.000000 -0.427332 0.904095
+0.000000 0.427332 0.904095
+0.000000 0.470961 0.882154
+0.000000 0.427332 0.904095
+0.000000 0.470961 0.882154
+0.000000 0.427332 0.904095
+0.000000 0.470961 0.882154
+-0.035932 0.272929 0.961363
+-0.035932 0.272929 0.961363
+-0.035932 0.272929 0.961363
+-0.109104 0.263401 0.958497
+-0.109104 0.263401 0.958497
+-0.109104 0.263401 0.958497
+-0.186340 0.242843 0.952000
+-0.186340 0.242843 0.952000
+-0.186340 0.242843 0.952000
+-0.270771 0.207770 0.939955
+-0.270771 0.207770 0.939955
+-0.270771 0.207770 0.939955
+-0.365975 0.151592 0.918195
+-0.365975 0.151592 0.918195
+-0.365975 0.151592 0.918195
+-0.475122 0.062551 0.877694
+-0.475122 0.062551 0.877694
+-0.475122 0.062551 0.877694
+0.035932 0.272929 0.961363
+0.035932 0.272929 0.961363
+0.035932 0.272929 0.961363
+0.109104 0.263401 0.958497
+0.109104 0.263401 0.958497
+0.109104 0.263401 0.958497
+0.186340 0.242843 0.952000
+0.186340 0.242843 0.952000
+0.186340 0.242843 0.952000
+0.270771 0.207770 0.939955
+0.270771 0.207770 0.939955
+0.270771 0.207770 0.939955
+0.365975 0.151592 0.918195
+0.365975 0.151592 0.918195
+0.365975 0.151592 0.918195
+0.475122 0.062551 0.877694
+0.475122 0.062551 0.877694
+0.475122 0.062551 0.877694
+0.480901 -0.063312 0.874486
+0.480901 -0.063312 0.874486
+0.480901 -0.063312 0.874486
+0.363321 -0.150493 0.919429
+0.363321 -0.150493 0.919429
+0.363321 -0.150493 0.919429
+0.265340 -0.203603 0.942412
+0.265340 -0.203603 0.942412
+0.265340 -0.203603 0.942412
+0.181089 -0.236000 0.954731
+0.181089 -0.236000 0.954731
+0.181089 -0.236000 0.954731
+0.105508 -0.254718 0.961242
+0.105508 -0.254718 0.961242
+0.105508 -0.254718 0.961242
+0.034667 -0.263325 0.964084
+0.034667 -0.263325 0.964084
+0.034667 -0.263325 0.964084
+-0.034667 -0.263325 0.964084
+-0.034667 -0.263325 0.964084
+-0.034667 -0.263325 0.964084
+-0.105508 -0.254718 0.961242
+-0.105508 -0.254718 0.961242
+-0.105508 -0.254718 0.961242
+-0.181089 -0.236000 0.954731
+-0.181089 -0.236000 0.954731
+-0.181089 -0.236000 0.954731
+-0.265340 -0.203603 0.942412
+-0.265340 -0.203603 0.942412
+-0.265340 -0.203603 0.942412
+-0.363321 -0.150493 0.919429
+-0.363321 -0.150493 0.919429
+-0.363321 -0.150493 0.919429
+-0.480901 -0.063312 0.874486
+-0.480901 -0.063312 0.874486
+-0.480901 -0.063312 0.874486
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-0.125045 0.000000 0.992151
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Layer0_001-Normal0-array" count="762" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Layer0_001-UV0">
+          <float_array id="Layer0_001-UV0-array" count="578">
+0.000000 0.000000
+0.000000 0.000000
+24.831249 22.081909
+2.620180 467.012512
+2.620180 22.081909
+24.831249 467.012512
+24.831249 225.886536
+24.831249 251.597656
+-24.831249 -421.829224
+-2.620180 -445.178711
+-2.620180 -421.829224
+-24.831249 -445.178711
+24.831249 -0.000000
+2.620180 24.075937
+2.620180 0.000000
+24.831249 24.075937
+0.000000 0.000000
+-6.133864 4.360795
+-135.638885 0.000000
+-129.725693 4.360795
+135.638885 0.000000
+69.888237 4.360795
+69.888237 0.000000
+129.725693 4.360795
+62.746258 0.000000
+6.133864 4.360795
+62.746258 4.360795
+0.000000 0.000000
+0.000000 0.000000
+-12.908305 4.602797
+-12.392784 0.000000
+-12.392784 4.602797
+-12.908305 0.000000
+-12.997384 4.602797
+-12.481863 0.000000
+-12.481863 4.602797
+-12.997384 0.000000
+-12.218279 4.602797
+-11.702758 0.000000
+-11.702758 4.602797
+-12.218279 0.000000
+-10.108562 4.602797
+-10.624084 0.000000
+-10.108562 0.000000
+-10.624084 4.602797
+-7.807920 4.602797
+-8.323441 0.000000
+-7.807920 0.000000
+-8.323441 4.602797
+-4.957613 4.602797
+-5.473135 0.000000
+-4.957613 0.000000
+-5.473135 4.602797
+-1.751889 4.602797
+-2.267410 0.000000
+-1.751889 0.000000
+-2.267410 4.602797
+1.590790 4.602797
+1.075269 0.000000
+1.590790 0.000000
+1.075269 4.602797
+4.842626 4.602797
+4.327104 0.000000
+4.842626 0.000000
+4.327104 4.602797
+7.782010 0.000000
+7.266489 4.602797
+7.266489 0.000000
+7.782010 4.602797
+10.208630 0.000000
+9.693108 4.602797
+9.693108 0.000000
+10.208630 4.602797
+11.957113 0.000000
+11.441592 4.602797
+11.441592 0.000000
+11.957113 4.602797
+12.280005 0.000000
+6.834071 4.602797
+6.834071 0.000000
+8.273919 4.602797
+10.840158 4.602797
+12.280005 4.602797
+7.508961 0.000000
+6.993440 4.602797
+6.993440 0.000000
+7.508961 4.602797
+7.965996 0.000000
+7.450475 4.602797
+7.450475 0.000000
+7.965996 4.602797
+7.897728 0.000000
+7.382206 4.602797
+7.382206 0.000000
+7.897728 4.602797
+7.308808 4.602797
+6.793287 0.000000
+7.308808 0.000000
+6.793287 4.602797
+6.239371 4.602797
+5.723850 0.000000
+6.239371 0.000000
+5.723850 4.602797
+4.762298 4.602797
+4.246777 0.000000
+4.762298 0.000000
+4.246777 4.602797
+2.978247 4.602797
+2.462726 0.000000
+2.978247 0.000000
+2.462726 4.602797
+1.008800 4.602797
+0.493279 0.000000
+1.008800 0.000000
+0.493279 4.602797
+-1.011829 4.602797
+-1.527350 0.000000
+-1.011829 0.000000
+-1.527350 4.602797
+-3.461459 4.602797
+-2.945938 0.000000
+-2.945938 4.602797
+-3.461459 0.000000
+-5.177241 4.602797
+-4.661720 0.000000
+-4.661720 4.602797
+-5.177241 0.000000
+-6.557769 4.602797
+-6.042247 0.000000
+-6.042247 4.602797
+-6.557769 0.000000
+-10.840158 4.602797
+-9.286004 2.512312
+-8.273919 4.602797
+-10.342966 2.512312
+-10.342966 0.883337
+-10.342966 0.000000
+-12.280005 0.000000
+-12.280005 4.602797
+-6.834071 0.000000
+-6.834071 4.602797
+-9.286004 0.000000
+-9.286004 0.883337
+0.000000 0.000000
+-2168.733154 873.745667
+-2012.670654 603.437500
+-1662.420654 603.437500
+-2636.920654 603.437500
+-2244.011719 904.927124
+-2324.795654 915.562500
+-2405.579590 904.927124
+-2480.858154 873.745667
+-2987.170654 603.437500
+2012.670654 603.437500
+2168.733154 873.745667
+1662.420654 603.437500
+2636.920654 603.437500
+2244.011719 904.927124
+2324.795654 915.562500
+2405.579590 904.927124
+2480.858154 873.745667
+2545.501465 824.143188
+2560.623779 804.435364
+2595.103760 759.500000
+2626.285400 684.221375
+1366.718750 2338.016113
+405.968750 2419.497070
+405.968750 2338.016113
+1366.718750 2419.497070
+1366.718750 2342.930664
+405.968750 2424.411621
+405.968750 2342.930664
+886.343750 2424.411621
+1366.718750 2424.411621
+-886.343750 -2185.401855
+-405.968750 -2266.882813
+-405.968750 -2185.401855
+-886.343750 -2266.882813
+-1366.718750 -2185.401855
+-1366.718750 -2266.882813
+-886.343750 -1876.165161
+-405.968750 -1957.646118
+-405.968750 -1876.165161
+-1366.718750 -1957.646118
+-1366.718750 -1876.165161
+2987.170654 603.437500
+1366.718750 1750.706665
+405.968750 2324.656738
+405.968750 1750.706665
+1366.718750 2324.656738
+-1366.718750 -1776.998901
+-405.968750 -2350.949219
+-405.968750 -1776.998901
+-1366.718750 -2350.949219
+-1331.366455 -3027.713379
+-1205.963501 -3027.713379
+-1192.752075 -1932.517578
+-1739.450317 -1547.116577
+-2024.717041 -2604.590576
+-1899.314087 -2604.590576
+-2167.607910 -1026.201050
+-2584.359619 -2011.150757
+-2458.956543 -2011.150757
+-2448.046387 -406.679840
+-2972.155273 -1290.036987
+-2846.752197 -1290.036987
+-2561.654785 265.085907
+-3161.676514 -496.005554
+-3036.273438 -496.005554
+-2500.690674 929.355530
+-3140.007568 300.231781
+-3014.604492 300.231781
+-551.558472 -3250.155762
+-426.155426 -3250.155762
+-564.769836 -2154.959717
+261.564362 -3254.813965
+386.967407 -3254.813965
+101.700600 -2197.339844
+1052.588989 -3038.496094
+1177.992065 -3038.496094
+761.240295 -2053.546387
+1767.608398 -2611.958496
+1893.011475 -2611.958496
+1368.902710 -1728.601318
+2357.895264 -1999.779663
+2483.298340 -1999.779663
+1883.276611 -1238.688232
+2783.222412 -1242.334717
+2908.625488 -1242.334717
+2269.308350 -613.210938
+1826.591064 -702.499634
+2420.597900 -59.010098
+1701.187988 -702.499634
+1937.767090 -368.560822
+2487.020264 425.133179
+1812.364014 -368.560822
+1921.160400 44.032738
+2383.956299 977.269653
+1795.757324 44.032738
+1777.902832 468.836151
+2118.429688 1518.098022
+1652.499878 468.836151
+1517.757202 858.870911
+1708.535645 1990.968384
+1392.354126 858.870911
+1158.451904 1178.577515
+1182.207642 2353.758789
+1033.048828 1178.577515
+575.314209 2576.830811
+599.070007 1401.649292
+724.473022 1401.649292
+-70.785942 2643.054199
+119.992477 1510.956665
+245.395523 1510.956665
+-712.062195 2548.389893
+-371.535339 1499.128052
+-246.132294 1499.128052
+-1304.812500 2302.647217
+-842.016663 1369.410400
+-716.613586 1369.410400
+-1808.642090 1930.927734
+-1259.388916 1137.233765
+-1133.985840 1137.233765
+-2189.215576 1477.918335
+-1595.208862 834.428833
+-1469.805908 834.428833
+0.000000 0.000000
+-125.492516 23.181305
+-126.107819 19.366640
+-125.492516 19.366640
+-132.315567 19.366640
+-133.289352 19.366640
+-138.989761 19.366640
+-139.776474 19.366640
+-139.776474 23.181305
+22.553820 6.433753
+13.795139 0.000000
+22.553820 0.000000
+13.795139 5.329861
+18.769096 5.956749
+-13.795139 5.329861
+-22.553820 0.000000
+-13.795139 0.000000
+-22.553820 6.433753
+-18.769096 5.956749
+-139.776474 14.353333
+-125.492516 14.353333
+0.000000 0.000000
+0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Layer0_001-UV0-array" count="289" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Layer0_001-UV1">
+          <float_array id="Layer0_001-UV1-array" count="18">
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Layer0_001-UV1-array" count="9" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Layer0_001-VERTEX">
+          <input semantic="POSITION" source="#Layer0_001-POSITION"/>
+        </vertices>
+        <triangles count="67" material="skp_front_default"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 0 0 0 0 1 1 0 0 2 2 0 0 1 3 0 0 0 4 0 0 3 5 0 0 3 6 0 0 0 7 0 0 4 8 0 0 3 9 0 0 4 10 0 0 5 11 0 0 5 12 0 0 4 13 0 0 6 14 0 0 5 15 0 0 6 16 0 0 7 17 0 0 8 18 0 0 9 19 0 0 10 20 0 0 9 21 0 0 8 22 0 0 11 23 0 0 11 24 0 0 8 25 0 0 12 26 0 0 12 27 0 0 8 28 0 0 13 29 0 0 13 30 0 0 8 31 0 0 14 32 0 0 14 33 0 0 8 34 0 0 15 35 0 0 14 36 0 0 15 37 0 0 16 38 0 0 16 39 0 0 15 40 0 0 17 41 0 0 16 42 0 0 17 43 0 0 18 44 0 0 18 45 0 0 17 46 0 0 19 47 0 0 18 48 0 0 19 49 0 0 20 50 0 0 20 51 0 0 19 52 0 0 21 53 0 0 20 54 0 0 21 55 0 0 22 56 0 0 22 57 0 0 21 58 0 0 23 59 0 0 22 60 0 0 23 61 0 0 24 62 0 0 24 63 0 0 23 64 0 0 25 65 0 0 24 66 0 0 25 67 0 0 26 68 0 0 26 69 0 0 25 70 0 0 27 71 0 0 26 72 0 0 27 73 0 0 28 74 0 0 28 75 0 0 27 76 0 0 29 77 0 0 28 78 0 0 29 79 0 0 30 80 0 0 30 81 0 0 29 82 0 0 31 83 0 0 30 84 0 0 31 85 0 0 32 86 0 0 32 87 0 0 31 88 0 0 33 89 0 0 32 90 0 0 33 91 0 0 34 92 0 0 32 93 0 0 34 94 0 0 35 95 0 0 36 96 0 0 37 97 0 0 38 98 0 0 37 99 0 0 36 100 0 0 39 101 0 0 37 102 0 0 39 103 0 0 40 104 0 0 37 105 0 0 40 106 0 0 41 107 0 0 37 108 0 0 41 109 0 0 42 110 0 0 37 111 0 0 42 112 0 0 43 113 0 0 37 114 0 0 43 115 0 0 44 116 0 0 37 117 0 0 44 118 0 0 45 119 0 0 37 120 0 0 45 121 0 0 46 122 0 0 37 123 0 0 46 124 0 0 47 125 0 0 37 126 0 0 47 127 0 0 48 128 0 0 49 129 0 0 11 130 0 0 50 131 0 0 11 132 0 0 49 133 0 0 9 134 0 0 51 135 0 0 52 136 0 0 53 137 0 0 52 138 0 0 51 139 0 0 54 140 0 0 55 141 0 0 56 142 0 0 57 143 0 0 56 144 0 0 55 145 0 0 58 146 0 0 58 147 0 0 55 148 0 0 59 149 0 0 59 150 0 0 55 151 0 0 60 152 0 0 60 153 0 0 55 154 0 0 61 155 0 0 61 156 0 0 55 157 0 0 62 158 0 0 62 159 0 0 55 160 0 0 63 161 0 0 63 162 0 0 55 163 0 0 64 164 0 0 64 165 0 0 55 166 0 0 65 167 0 0 65 168 0 0 55 169 0 0 66 170 0 0 66 171 0 0 55 172 0 0 67 173 0 0 37 174 0 0 53 175 0 0 38 176 0 0 53 177 0 0 37 178 0 0 51 179 0 0 54 180 0 0 57 181 0 0 52 182 0 0 57 183 0 0 54 184 0 0 55 185 0 0 55 186 0 0 68 187 0 0 57 188 0 0 37 189 0 0 38 190 0 0 69 191 0 0 9 192 0 0 7 193 0 0 6 194 0 0 7 195 0 0 9 196 0 0 11 197 0 0 49 198 0 0 70 199 0 0 71 200 0 0</p></triangles>
+        <triangles count="8" material="Stone_Granite_Midnite"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 72 201 2 1 73 202 3 1 74 203 4 1 73 204 3 1 72 205 2 1 75 206 5 1 75 207 5 1 72 208 2 1 76 209 6 1 75 210 5 1 76 211 6 1 77 212 7 1 75 213 8 1 78 214 9 1 73 215 10 1 78 216 9 1 75 217 8 1 79 218 11 1 80 219 12 1 74 220 13 1 81 221 14 1 74 222 13 1 80 223 12 1 72 224 15 1</p></triangles>
+        <triangles count="8" material="Brick_Rough_Dark"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 82 225 17 2 83 226 18 2 84 227 16 2 83 228 18 2 82 229 17 2 85 230 19 2 86 231 20 2 87 232 21 2 88 233 22 2 87 234 21 2 86 235 20 2 89 236 23 2 90 237 24 2 91 238 25 2 92 239 16 2 91 240 25 2 90 241 24 2 93 242 26 2 88 243 22 2 93 244 26 2 90 245 24 2 93 246 26 2 88 247 22 2 87 248 21 2</p></triangles>
+        <triangles count="6" material="Color_D01"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 94 249 27 3 95 250 27 3 96 251 27 3 95 252 27 3 94 253 27 3 97 254 27 3 98 255 27 3 96 256 27 3 99 257 27 3 96 258 27 3 98 259 27 3 94 260 27 3 100 261 27 3 99 262 27 3 101 263 27 3 99 264 27 3 100 265 27 3 98 266 27 3</p></triangles>
+        <triangles count="62" material="_4154397 copy"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 102 267 29 4 103 268 30 4 104 269 31 4 103 270 30 4 102 271 29 4 105 272 32 4 106 273 33 4 105 274 34 4 102 275 35 4 105 276 34 4 106 277 33 4 107 278 36 4 108 279 37 4 107 280 38 4 106 281 39 4 107 282 38 4 108 283 37 4 109 284 40 4 108 285 41 4 110 286 42 4 109 287 43 4 110 288 42 4 108 289 41 4 111 290 44 4 111 291 45 4 112 292 46 4 110 293 47 4 112 294 46 4 111 295 45 4 113 296 48 4 113 297 49 4 114 298 50 4 112 299 51 4 114 300 50 4 113 301 49 4 115 302 52 4 115 303 53 4 116 304 54 4 114 305 55 4 116 306 54 4 115 307 53 4 117 308 56 4 117 309 57 4 118 310 58 4 116 311 59 4 118 312 58 4 117 313 57 4 119 314 60 4 119 315 61 4 120 316 62 4 118 317 63 4 120 318 62 4 119 319 61 4 121 320 64 4 120 321 65 4 122 322 66 4 123 323 67 4 122 324 66 4 120 325 65 4 121 326 68 4 123 327 69 4 124 328 70 4 125 329 71 4 124 330 70 4 123 331 69 4 122 332 72 4 125 333 73 4 126 334 74 4 127 335 75 4 126 336 74 4 125 337 73 4 124 338 76 4 127 339 77 4 128 340 78 4 129 341 79 4 128 342 78 4 127 343 77 4 130 344 80 4 130 345 80 4 127 346 77 4 131 347 81 4 131 348 81 4 127 349 77 4 126 350 82 4 129 351 83 4 132 352 84 4 133 353 85 4 132 354 84 4 129 355 83 4 128 356 86 4 133 357 87 4 134 358 88 4 135 359 89 4 134 360 88 4 133 361 87 4 132 362 90 4 135 363 91 4 136 364 92 4 137 365 93 4 136 366 92 4 135 367 91 4 134 368 94 4 136 369 95 4 138 370 96 4 137 371 97 4 138 372 96 4 136 373 95 4 139 374 98 4 139 375 99 4 140 376 100 4 138 377 101 4 140 378 100 4 139 379 99 4 141 380 102 4 141 381 103 4 142 382 104 4 140 383 105 4 142 384 104 4 141 385 103 4 143 386 106 4 143 387 107 4 144 388 108 4 142 389 109 4 144 390 108 4 143 391 107 4 145 392 110 4 145 393 111 4 146 394 112 4 144 395 113 4 146 396 112 4 145 397 111 4 147 398 114 4 147 399 115 4 148 400 116 4 146 401 117 4 148 402 116 4 147 403 115 4 149 404 118 4 150 405 119 4 148 406 120 4 149 407 121 4 148 408 120 4 150 409 119 4 151 410 122 4 152 411 123 4 151 412 124 4 150 413 125 4 151 414 124 4 152 415 123 4 153 416 126 4 154 417 127 4 153 418 128 4 152 419 129 4 153 420 128 4 154 421 127 4 155 422 130 4 156 423 131 4 157 424 132 4 158 425 133 4 157 426 132 4 156 427 131 4 159 428 134 4 159 429 134 4 156 430 131 4 160 431 135 4 160 432 135 4 156 433 131 4 161 434 136 4 161 435 136 4 156 436 131 4 103 437 137 4 103 438 137 4 156 439 131 4 104 440 138 4 158 441 133 4 155 442 139 4 154 443 140 4 155 444 139 4 158 445 133 4 162 446 141 4 162 447 141 4 158 448 133 4 157 449 132 4 162 450 141 4 157 451 132 4 163 452 142 4</p></triangles>
+        <triangles count="62" material="Google Earth Snapshot1"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 164 453 144 5 165 454 145 5 166 455 146 5 165 456 145 5 164 457 144 5 167 458 147 5 167 459 147 5 164 460 144 5 168 461 148 5 167 462 147 5 168 463 148 5 169 464 149 5 167 465 147 5 169 466 149 5 170 467 150 5 167 468 147 5 170 469 150 5 171 470 151 5 167 471 147 5 171 472 151 5 172 473 152 5 173 474 153 5 174 475 154 5 175 476 155 5 174 477 154 5 173 478 153 5 176 479 156 5 174 480 154 5 176 481 156 5 177 482 157 5 177 483 157 5 176 484 156 5 178 485 158 5 178 486 158 5 176 487 156 5 179 488 159 5 179 489 159 5 176 490 156 5 180 491 160 5 180 492 160 5 176 493 156 5 181 494 161 5 181 495 161 5 176 496 156 5 182 497 162 5 182 498 162 5 176 499 156 5 183 500 163 5 183 501 163 5 176 502 156 5 184 503 164 5 174 504 165 5 168 505 166 5 164 506 167 5 168 507 166 5 174 508 165 5 177 509 168 5 177 510 169 5 169 511 170 5 168 512 171 5 169 513 170 5 177 514 169 5 185 515 172 5 185 516 172 5 177 517 169 5 178 518 173 5 185 519 174 5 170 520 175 5 169 521 176 5 170 522 175 5 185 523 174 5 186 524 177 5 186 525 177 5 185 526 174 5 178 527 178 5 186 528 177 5 178 529 178 5 179 530 179 5 186 531 180 5 171 532 181 5 170 533 182 5 171 534 181 5 186 535 180 5 180 536 183 5 180 537 183 5 186 538 180 5 179 539 184 5 181 540 161 5 187 541 185 5 180 542 160 5 187 543 185 5 181 544 161 5 182 545 162 5 187 546 185 5 182 547 162 5 183 548 163 5 187 549 185 5 183 550 163 5 184 551 164 5 187 552 185 5 184 553 164 5 176 554 156 5 175 555 186 5 164 556 187 5 166 557 188 5 164 558 187 5 175 559 186 5 174 560 189 5 180 561 190 5 172 562 191 5 171 563 192 5 172 564 191 5 180 565 190 5 187 566 193 5 188 567 194 5 189 568 195 5 186 569 196 5 186 570 197 5 189 571 198 5 190 572 199 5 186 573 200 5 190 574 201 5 191 575 202 5 186 576 203 5 191 577 204 5 192 578 205 5 186 579 206 5 192 580 207 5 193 581 208 5 186 582 209 5 193 583 210 5 172 584 211 5 194 585 212 5 188 586 213 5 186 587 214 5 195 588 215 5 194 589 216 5 186 590 217 5 196 591 218 5 195 592 219 5 186 593 220 5 197 594 221 5 196 595 222 5 186 596 223 5 198 597 224 5 197 598 225 5 186 599 226 5 187 600 227 5 198 601 228 5 186 602 229 5 175 603 230 5 185 604 231 5 199 605 232 5 199 606 233 5 185 607 234 5 200 608 235 5 200 609 236 5 185 610 237 5 201 611 238 5 201 612 239 5 185 613 240 5 202 614 241 5 202 615 242 5 185 616 243 5 203 617 244 5 203 618 245 5 185 619 246 5 204 620 247 5 185 621 248 5 205 622 249 5 204 623 250 5 185 624 251 5 206 625 252 5 205 626 253 5 185 627 254 5 207 628 255 5 206 629 256 5 185 630 257 5 208 631 258 5 207 632 259 5 185 633 260 5 209 634 261 5 208 635 262 5 185 636 263 5 166 637 264 5 209 638 265 5</p></triangles>
+        <triangles count="18" material="Metal_Seamed"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 210 639 267 6 211 640 268 6 212 641 269 6 211 642 268 6 210 643 267 6 213 644 270 6 213 645 270 6 210 646 267 6 214 647 271 6 214 648 271 6 210 649 267 6 215 650 272 6 215 651 272 6 210 652 267 6 216 653 273 6 216 654 273 6 210 655 267 6 217 656 274 6 210 657 275 6 218 658 276 6 219 659 277 6 218 660 276 6 210 661 275 6 220 662 278 6 220 663 278 6 210 664 275 6 212 665 279 6 221 666 280 6 222 667 281 6 223 668 282 6 222 669 281 6 221 670 280 6 217 671 283 6 217 672 283 6 221 673 280 6 216 674 284 6 212 675 269 6 221 676 285 6 220 677 286 6 221 678 285 6 212 679 269 6 216 680 273 6 216 681 273 6 212 682 269 6 211 683 268 6 216 684 273 6 211 685 268 6 213 686 270 6 216 687 273 6 213 688 270 6 214 689 271 6 216 690 273 6 214 691 271 6 215 692 272 6</p></triangles>
+        <triangles count="4" material="&lt;DarkGray&gt;1"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 224 693 287 7 225 694 287 7 226 695 287 7 225 696 287 7 224 697 287 7 227 698 287 7 228 699 287 7 229 700 287 7 230 701 287 7 229 702 287 7 228 703 287 7 231 704 287 7</p></triangles>
+        <triangles count="19" material="&lt;DimGray&gt;"><input semantic="VERTEX" offset="0" source="#Layer0_001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Layer0_001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Layer0_001-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#Layer0_001-UV1"/><p> 232 705 288 8 233 706 288 8 234 707 288 8 233 708 288 8 232 709 288 8 235 710 288 8 233 711 288 8 236 712 288 8 237 713 288 8 236 714 288 8 233 715 288 8 235 716 288 8 232 717 288 8 238 718 288 8 239 719 288 8 238 720 288 8 232 721 288 8 234 722 288 8 238 723 288 8 240 724 288 8 239 725 288 8 234 726 288 8 241 727 288 8 238 728 288 8 241 729 288 8 234 730 288 8 233 731 288 8 238 732 288 8 241 733 288 8 240 734 288 8 241 735 288 8 233 736 288 8 242 737 288 8 242 738 288 8 233 739 288 8 243 740 288 8 243 741 288 8 233 742 288 8 244 743 288 8 244 744 288 8 233 745 288 8 245 746 288 8 245 747 288 8 233 748 288 8 246 749 288 8 246 750 288 8 233 751 288 8 237 752 288 8 247 753 288 8 240 754 288 8 241 755 288 8 243 756 288 8 248 757 288 8 242 758 288 8 248 759 288 8 243 760 288 8 249 761 288 8</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="3d-model" name="3d-model">
+      <node name="Susan_001" id="Susan_001" layer="Layer0" sid="Susan_001"><matrix sid="matrix">0.019579 0.999808 -0.000000 -664.899780 -0.000000 0.000000 1.000000 33.300419 0.999808 -0.019579 0.000000 2428.965820 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Susan_001-lib"><bind_material><technique_common><instance_material symbol="_96,96,96" target="#_96,96,96"/><instance_material symbol="&lt;Beige&gt;1" target="#&lt;Beige&gt;1"/><instance_material symbol="Color_B24" target="#Color_B24"/><instance_material symbol="&lt;LightGray&gt;" target="#&lt;LightGray&gt;"/><instance_material symbol="_0135_DarkGray" target="#_0135_DarkGray"/><instance_material symbol="jean blue" target="#jean blue"/><instance_material symbol="&lt;Charcoal&gt;" target="#&lt;Charcoal&gt;"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Layer0_001" id="Layer0_001" layer="Layer0" sid="Layer0_001"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 457.781250 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Layer0_001-lib"><bind_material><technique_common><instance_material symbol="skp_front_default" target="#skp_front_default"/><instance_material symbol="Stone_Granite_Midnite" target="#Stone_Granite_Midnite"/><instance_material symbol="Brick_Rough_Dark" target="#Brick_Rough_Dark"/><instance_material symbol="Color_D01" target="#Color_D01"/><instance_material symbol="_4154397 copy" target="#_4154397 copy"/><instance_material symbol="Google Earth Snapshot1" target="#Google Earth Snapshot1"/><instance_material symbol="Metal_Seamed" target="#Metal_Seamed"/><instance_material symbol="&lt;DarkGray&gt;1" target="#&lt;DarkGray&gt;1"/><instance_material symbol="&lt;DimGray&gt;" target="#&lt;DimGray&gt;"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#3d-model"></instance_visual_scene>
+  </scene>
+</COLLADA>

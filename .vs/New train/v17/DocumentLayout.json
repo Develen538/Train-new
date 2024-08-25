@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\scripts\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|c:\\users\\dev\\documents\\github\\new train\\assets\\scripts\\managerjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managerjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\scripts\\triggermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\scripts\\locomotiv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\locomotiv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\scripts\\playermovment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\pathcreator\\examples\\scripts\\pathfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\pathcreator\\examples\\scripts\\pathfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\pathcreator\\examples\\scripts\\pathspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\pathcreator\\examples\\scripts\\pathspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\scripts\\cameraratarion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraratarion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|C:\\Users\\Dev\\Documents\\GitHub\\New train\\assets\\scripts\\infogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B06C44D-719F-0FF7-D7C8-D8303FEF5933}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InfoGame.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\InfoGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InfoGame.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\InfoGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InfoGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:01:09.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T22:01:14.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Locomotiv.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\Locomotiv.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Locomotiv.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\Locomotiv.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Locomotiv.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T20:54:26.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TriggerMoney.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\TriggerMoney.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerMoney.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\TriggerMoney.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TriggerMoney.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T20:03:24.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\Job.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Job.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\Job.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Job.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:11:34.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagerJob.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\ManagerJob.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ManagerJob.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\ManagerJob.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ManagerJob.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T18:02:51.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T23:05:53.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CameraRatarion.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\CameraRatarion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraRatarion.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\CameraRatarion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraRatarion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T22:27:33.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerMovment.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\PlayerMovment.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovment.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\Scripts\\PlayerMovment.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T22:23:49.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PathSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\PathCreator\\Examples\\Scripts\\PathSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\PathCreator\\Examples\\Scripts\\PathSpawner.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\PathCreator\\Examples\\Scripts\\PathSpawner.cs",
+              "RelativeToolTip": "Assets\\PathCreator\\Examples\\Scripts\\PathSpawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:46:25.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PathFollower.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\PathCreator\\Examples\\Scripts\\PathFollower.cs",
+              "RelativeDocumentMoniker": "Assets\\PathCreator\\Examples\\Scripts\\PathFollower.cs",
+              "ToolTip": "C:\\Users\\Dev\\Documents\\GitHub\\New train\\Assets\\PathCreator\\Examples\\Scripts\\PathFollower.cs",
+              "RelativeToolTip": "Assets\\PathCreator\\Examples\\Scripts\\PathFollower.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA1wC0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:40:46.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
