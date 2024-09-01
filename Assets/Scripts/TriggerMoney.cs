@@ -1,4 +1,3 @@
-using PathCreation.Examples;
 using TMPro;
 using UnityEngine;
 

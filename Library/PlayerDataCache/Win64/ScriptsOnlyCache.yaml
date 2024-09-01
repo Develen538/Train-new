@@ -88,9 +88,6 @@ ScriptsOnlyBuild:
     methodName: Quit
   - assembly: Assembly-CSharp
     fullTypeName: ManagerJob
-    methodName: Exit
-  - assembly: Assembly-CSharp
-    fullTypeName: ManagerJob
     methodName: Hire
   sceneClasses:
     Assets/Scenes/Game.unity:
@@ -143,31 +140,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20074}
     - Class: 114
-      Script: {instanceID: 20148}
+      Script: {instanceID: 20176}
     - Class: 114
-      Script: {instanceID: 20178}
+      Script: {instanceID: 20208}
     - Class: 114
-      Script: {instanceID: 20210}
+      Script: {instanceID: 20400}
     - Class: 114
-      Script: {instanceID: 20402}
+      Script: {instanceID: 20658}
     - Class: 114
-      Script: {instanceID: 20422}
+      Script: {instanceID: 20776}
     - Class: 114
-      Script: {instanceID: 20662}
+      Script: {instanceID: 20930}
     - Class: 114
-      Script: {instanceID: 20780}
+      Script: {instanceID: 21174}
     - Class: 114
-      Script: {instanceID: 20934}
+      Script: {instanceID: 21252}
     - Class: 114
-      Script: {instanceID: 21178}
+      Script: {instanceID: 21330}
     - Class: 114
-      Script: {instanceID: 21256}
+      Script: {instanceID: 22270}
     - Class: 114
-      Script: {instanceID: 22272}
+      Script: {instanceID: 22956}
     - Class: 114
-      Script: {instanceID: 22958}
+      Script: {instanceID: 23078}
     - Class: 114
-      Script: {instanceID: 24858}
+      Script: {instanceID: 23082}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -236,17 +233,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19504}
     - Class: 114
-      Script: {instanceID: 20210}
+      Script: {instanceID: 20208}
     - Class: 114
-      Script: {instanceID: 20780}
+      Script: {instanceID: 20776}
     - Class: 114
-      Script: {instanceID: 20934}
+      Script: {instanceID: 20930}
     - Class: 114
-      Script: {instanceID: 21256}
+      Script: {instanceID: 21252}
     - Class: 114
-      Script: {instanceID: 21344}
+      Script: {instanceID: 21330}
     - Class: 114
-      Script: {instanceID: 24858}
+      Script: {instanceID: 21342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -884,12 +881,6 @@ ScriptsOnlyBuild:
     className: TrainPlayerInput
   - hash:
       serializedVersion: 2
-      Hash: 75a6ff11e51aba8bd298560d9f79acfb
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CameraRatarion
-  - hash:
-      serializedVersion: 2
       Hash: fedbf06ebc14f29e14df3d715572d47a
     assemblyName: Assembly-CSharp
     namespaceName: PathCreation.Examples
@@ -948,12 +939,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2a6d5350ecb04ff6251bb5de521eb7b2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Job
   - hash:
       serializedVersion: 2
       Hash: bf0842d88681628b29beb00b5e2ab785
@@ -1074,6 +1059,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 3caa414bf45f69009ca27175a4a251dd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InfoGame
   - hash:
       serializedVersion: 2
       Hash: 6a4d859d7328110e62d9da5afdb57e28
@@ -1370,10 +1361,16 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3caa414bf45f69009ca27175a4a251dd
+      Hash: 75a6ff11e51aba8bd298560d9f79acfb
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: InfoGame
+    className: CameraRatarion
+  - hash:
+      serializedVersion: 2
+      Hash: 2a6d5350ecb04ff6251bb5de521eb7b2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Job
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity

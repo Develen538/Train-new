@@ -11,11 +11,12 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         _controller = GetComponent<CharacterController>();
+
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
 
         float horizontalInput = Input.GetAxis("Horizontal");
@@ -24,8 +25,8 @@ public class PlayerController : MonoBehaviour
  
         Vector3 moveDirection = transform.forward * verticalInput + transform.right * horizontalInput;
 
-        moveDirection.y -= 9.81f * Time.deltaTime;
+        moveDirection.y -= 9.81f * Time.fixedDeltaTime;
 
-        _controller.Move(moveDirection * _moveSpeed * Time.deltaTime);
+        _controller.Move(moveDirection * _moveSpeed * Time.fixedDeltaTime);
     }
 }

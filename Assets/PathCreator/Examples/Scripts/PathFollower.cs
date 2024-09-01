@@ -44,8 +44,10 @@ namespace PathCreation.Examples
             if (Input.GetKeyDown(KeyCode.F))
             {
                 _audio[2].Play();
+
                 _playerFirst.SetActive(false);
                 _trainFirst.SetActive(true);
+
                 _number = 1;
 
             }
@@ -74,10 +76,12 @@ namespace PathCreation.Examples
 
                     _game.Speed = 0;
                 }
+
                 if (_game.Speed >= _game.MaxSpeed)
                 {
                     _game.Speed = _game.MaxSpeed;
                 }
+
                 if (_game.Speed >= 0.01)
                 {
                     _audio[0].volume = 1;

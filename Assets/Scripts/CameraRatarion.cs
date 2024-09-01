@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraRatarion : MonoBehaviour
 {
-    private float X, Y, Z;
+    private float X, Y;
     private int speeds = 200;
     private float eulerX = 0, eulerY = 0;
 

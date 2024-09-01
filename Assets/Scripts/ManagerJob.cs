@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 
 public class ManagerJob : MonoBehaviour
@@ -9,15 +8,6 @@ public class ManagerJob : MonoBehaviour
     [SerializeField] private AudioSource[] _audio;
 
     private bool _time = false;
-
-    public void Exit()
-    {
-        _audio[0].Play();
-
-        _job.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
 
     public void Hire()
     {
@@ -30,6 +20,7 @@ public class ManagerJob : MonoBehaviour
 
             _time = true;
         }
+
         if (_time == true)
         {
             Invoke("GiveMoney", 60f);
